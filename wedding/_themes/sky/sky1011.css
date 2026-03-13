@@ -1,0 +1,533 @@
+.mstheme     { nav-banner-image: url(banner_sky.gif); separator-image: url(rule_sky.gif); 
+               list-image-1: url(bull1_sky.gif); list-image-2: 
+               url(bull2_sky.gif); list-image-3: url(bull3_sky.gif); 
+               navbutton-horiz-normal: url(nav_hor_sky.gif); 
+               navbutton-horiz-hovered: url(nav_hor_over_sky.gif); 
+               navbutton-horiz-pushed: url(nav_hor_down_sky.gif); 
+               navbutton-vert-normal: url(nav_vert_sky.gif); 
+               navbutton-vert-hovered: url(nav_vert_over_sky.gif); 
+               navbutton-vert-pushed: url(nav_vert_down_sky.gif); 
+               navbutton-home-normal: url(nav_home_sky.gif); 
+               navbutton-home-hovered: url(nav_home_over_sky.gif); 
+               navbutton-up-normal: url(nav_up_sky.gif); 
+               navbutton-up-hovered: url(nav_up_over_sky.gif); 
+               navbutton-prev-normal: url(nav_prev_sky.gif); 
+               navbutton-prev-hovered: url(nav_prev_over_sky.gif); 
+               navbutton-next-normal: url(nav_next_sky.gif); 
+               navbutton-next-hovered: url(nav_next_over_sky.gif); 
+               navbutton-next-pushed: url(nav_next_down_sky.gif) }
+ul           { list-style-image: url('bull1_sky.gif') }
+ul ul        { list-style-image: url('bull2_sky.gif') }
+ul ul ul     { list-style-image: url('bull3_sky.gif') }
+.mstheme-bannertxt { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 5; color: 
+               #282A55 }
+.mstheme-horiz-navtxt { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 2; color: 
+               #282A55 }
+.mstheme-vert-navtxt { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 2; color: 
+               #282A55 }
+.mstheme-navtxthome { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 1; color: 
+               #282A55 }
+.mstheme-navtxtup { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 1; color: 
+               #282A55 }
+.mstheme-navtxtprev { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 1; color: 
+               #282A55 }
+.mstheme-navtxtnext { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 1; color: 
+               #282A55 }
+a:link       { color: #3B00CA }
+a:visited    { color: #093384 }
+a:active     { color: #8551FF }
+body         { color: #282A55; background-color: #CFCFD7 }
+h1           { color: #282A55 }
+h2, marquee  { color: #282A55 }
+h3           { color: #282A55 }
+h4           { color: #282A55 }
+h5           { color: #282A55 }
+h6           { color: #282A55 }
+label, .MSTHEME-LABEL { color: #282A55 }
+fieldset     { color: #282A55; border-color: #EEEEF1 }
+legend       { color: #282A55 }
+select       { color: #000000; border-color: #EEEEF1 }
+table        { table-border-color-light: #EEEEF1; table-border-color-dark: #A8A8A8; color: 
+               #282A55; border-color: #333333 }
+caption      { color: #282A55 }
+th           { color: #282A55 }
+hr           { color: #FFFFFF }
+td           { border-color: #333333 }
+.mstheme     { navbutton-background-color: #CFCFD7; top-bar-button: 
+               url(top_bar_button_sky.gif) }
+.mstheme-topbar-font { font-family: Verdana, Arial, Helvetica, sans-serif; color: #282A55 }
+body         { font-family: Verdana, Arial, Helvetica, sans-serif; background-image: 
+               url('background_sky.gif') }
+h1           { font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; 
+               font-style: normal }
+h2           { font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: normal; 
+               font-style: normal }
+h3           { font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: normal; 
+               font-style: normal }
+h4           { font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: normal; 
+               font-style: normal }
+h5           { font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: normal; 
+               font-style: normal }
+h6           { font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: normal; 
+               font-style: normal }
+il           { list-style-image: url('bull2_sky.gif') }
+button       { font-family: Arial, Helvetica, sans-serif; font-style: normal; border-style: 
+               solid; border-width: 1pt }
+label, .MSTHEME-LABEL { font-family: Verdana, Arial, Helvetica, sans-serif; font-style: normal }
+textarea     { font-family: Verdana, Arial, Helvetica, sans-serif; font-style: normal; 
+               border-width: 1pt }
+fieldset     { font-family: Verdana, Arial, Helvetica, sans-serif; font-style: normal; 
+               border-style: solid; border-width: 1pt }
+legend       { font-family: Verdana, Arial, Helvetica, sans-serif; font-style: normal }
+select       { font-family: Verdana, Arial, Helvetica, sans-serif; font-style: normal; 
+               border-style: solid; border-width: 1pt }
+table        { font-family: Verdana, Arial, Helvetica, sans-serif; font-style: normal }
+caption      { font-family: Verdana, Arial, Helvetica, sans-serif; font-style: normal }
+th           { font-family: Verdana, Arial, Helvetica, sans-serif; font-style: bold }
+marquee      { font-family: Verdana, Arial, Helvetica, sans-serif }
+.ms-main     { border-color: #919EBE }
+.ms-bannerframe, .ms-GRHeaderBackground, .ms-storMeFree { background-color: #697494; background-repeat: repeat-x }
+.ms-banner   { color: #919EBE; font-family: Verdana, Arial, Helvetica, sans-serif }
+.ms-banner a:link { font-family: Verdana, Arial, Helvetica, sans-serif; color: #282A55; 
+               font-weight: normal; text-decoration: none }
+.ms-banner a:visited { font-family: Verdana, Arial, Helvetica, sans-serif; color: #282A55; 
+               font-weight: normal; text-decoration: none }
+.ms-nav td   { font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: normal; 
+               color: #282A55 }
+.ms-navframe { border-color: #BEC0CF }
+.ms-nav a    { text-decoration: none; font-family: Verdana, Arial, Helvetica, sans-serif; 
+               font-weight: normal; color: #3B00CA }
+.ms-nav a:hover { text-decoration: underline; color: #E2FFFF }
+.ms-nav a:visited { color: #3B00CA }
+.ms-viewselect a:link { font-family: Verdana, Arial, Helvetica, sans-serif; color: #3B00CA }
+.ms-titlearea { font-family: Verdana, Arial, Helvetica, sans-serif; color: #282A55 }
+.ms-pagetitle { color: #282A55; font-family: Verdana, Arial, Helvetica, sans-serif; 
+               font-weight: bold }
+.ms-pagetitle a { text-decoration: underline; color: #3B00CA }
+.ms-pagetitle a:hover { text-decoration: underline; color: #E2FFFF }
+.ms-announcementtitle { font-weight: bold }
+.ms-formlabel { font-family: verdana; font-size: .7em; font-weight: normal; color: #323232 }
+.ms-formbody { font-family: Verdana, Arial, Helvetica, sans-serif; color: #282A55 }
+.ms-formdescription { font-family: Verdana, Arial, Helvetica, sans-serif; color: #323232 }
+.ms-selected { background-color: #D5D5E3; color: #282A55 }
+.ms-selected span { color: #D5D5E3 }
+.ms-filedialog td { height: 16px }
+.ms-descriptiontext { color: #282A55; font-family: Verdana, Arial, Helvetica, sans-serif }
+.ms-descriptiontext a { color: #3B00CA; font-family: Verdana, Arial, Helvetica, sans-serif }
+.ms-separator { color: #282A55 }
+.ms-authoringcontrols { background-color: #BEC0CF; font-family: Verdana, Arial, Helvetica, sans-serif; 
+               color: #282A55 }
+.ms-alternating { background-color: #BEC0CF }
+.ms-back     { vertical-align: top; background-color: #BEC0CF; padding-left: 4; 
+               padding-right: 4; padding-top: 2; padding-bottom: 4 }
+.ms-sectionheader { color: #282A55; font-family: Verdana, Arial, Helvetica, sans-serif; 
+               font-weight: bold }
+.ms-sectionline { background-color: #FFFFFF }
+.ms-partline { background-color: #FFFFFF }
+.ms-propertysheet { font-family: Verdana, Arial, Helvetica, sans-serif }
+.ms-propertysheet th { font-family: Verdana, Arial, Helvetica, sans-serif; color: #282A55; 
+               font-weight: bold }
+.ms-propertysheet a { text-decoration: none; color: #3B00CA }
+.ms-propertysheet a:hover { text-decoration: underline; color: #E2FFFF }
+.ms-propertysheet a:visited { text-decoration: none; color: #093384 }
+.ms-propertysheet a:hover { text-decoration: underline }
+.ms-itemheader a { font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; color: 
+               #282A55; text-decoration: none }
+.ms-itemheader a:hover { text-decoration: underline; color: #282A55 }
+.ms-itemheader a:visited { text-decoration: none; color: #282A55 }
+.ms-itemheader a:hover { text-decoration: underline }
+.ms-vh       { font-family: Verdana, Arial, Helvetica, sans-serif; color: #3B00CA; 
+               text-decoration: none; font-weight: normal }
+.ms-vb       { font-family: Verdana, Arial, Helvetica, sans-serif; color: #282A55; height: 
+               18px; vertical-align: top }
+.ms-homepagetitle { font-family: Verdana, Arial, Helvetica, sans-serif; color: #282A55; 
+               font-weight: bold; text-decoration: none }
+.ms-homepagetitle:hover { text-decoration: underline; color: #3B00CA }
+.ms-addnew   { font-weight: normal; font-family: Verdana, Arial, Helvetica, sans-serif; 
+               color: #282A55; text-decoration: none }
+.ms-cal      { border-collapse: collapse; table-layout: fixed; font-family: 
+               Verdana, Arial, Helvetica, sans-serif; cursor: default }
+.ms-caltop   { vertical-align: top; width: 14%; height: 30px; border-left: 1px solid #FFFFFF; 
+               border-right: 1px solid #FFFFFF; border-top: 1px solid #FFFFFF }
+.ms-calhead  { text-align: center; background-color: #282A55; color: #CFCFD7; font-family: 
+               Verdana, Arial, Helvetica, sans-serif; border-style: none; 
+               border-width: medium; padding: 2px }
+.ms-caldow   { vertical-align: top; text-align: center; font-weight: bold; color: #282A55; 
+               height: 20px; border-left: 1px solid #FFFFFF; 
+               border-right: 1px solid #FFFFFF; border-top: 1px solid #FFFFFF }
+.ms-calmid   { height: 20px; border-left: 1px solid #FFFFFF; border-right: 1px solid #FFFFFF }
+.ms-calspacer { height: 4px; border-left: 1px solid #FFFFFF; border-right: 1px solid #FFFFFF }
+.ms-calbot   { height: 2px; border-left: 1px solid #FFFFFF; border-right: 1px solid #FFFFFF; 
+               border-top-style: none; border-top-width: medium; 
+               border-bottom: 1px solid #FFFFFF }
+.ms-appt a   { color: #3B00CA }
+.ms-appt a:hover { color: #E2FFFF }
+.ms-appt     { text-align: center; vertical-align: middle; height: 18px; overflow: hidden; 
+               text-overflow: ellipsis; background-color: #D5D5E3; color: 
+               #282A55; border: 2px solid #FFFFFF }
+.ms-caldowdown { font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; color: 
+               #282A55; text-align: center; vertical-align: middle }
+.ms-caldown  { color: #282A55; vertical-align: top }
+.ms-datepickeriframe { position: absolute; display: none; background-color: #FFFFFF; 
+               background-repeat: repeat; background-attachment: scroll; 
+               background-position: 0% }
+.ms-datepicker { font-family: Verdana, Arial, Helvetica, sans-serif; background-color: #CFCFD7; 
+               color: #282A55; cursor: default; border: 2 outset activeborder }
+.ms-dpdow    { vertical-align: top; text-align: center; font-weight: bold; color: #282A55; 
+               border-left-style: none; border-left-width: medium; 
+               border-right-style: none; border-right-width: medium; 
+               border-top-style: none; border-top-width: medium; 
+               border-bottom: 1px solid #FFFFFF }
+.ms-dpday    { text-align: center; cursor: hand; border-style: none; border-width: medium }
+.ms-dpselectedday { background-color: #BEC0CF; text-align: center; cursor: hand; border-style: 
+               none; border-width: medium }
+.ms-dpnonmonth { color: #1D2F49; text-align: center; cursor: hand; border-style: none; 
+               border-width: medium }
+.ms-dphead   { text-align: center; font-weight: bold; background-color: #697494; color: 
+               #282A55; border-style: none; border-width: medium }
+.ms-dpfoot   { text-align: center; font-style: italic; height: 24px; border-left-style: none; 
+               border-left-width: medium; border-right-style: none; 
+               border-right-width: medium; border-top-style: solid; 
+               border-top-width: 1px; border-bottom-style: none; 
+               border-bottom-width: medium }
+img.ms-button { cursor: hand }
+.ms-toolbar, .ms-toolbar a:visited { font-family: Verdana, Arial, Helvetica, sans-serif; text-decoration: none; 
+               color: #3B00CA }
+.ms-stylebody { font-family: verdana; font-size: 8pt }
+.ms-styleheader a:link, .ms-stylebody a:link { color: #3B00CA; text-decoration: none }
+.ms-styleheader a:visited, .ms-stylebody a:visited { text-decoration: none }
+.ms-styleheader a:hover, .ms-stylebody a:hover { color: #ff3300; text-decoration: underline }
+table.ms-toolbar { background-image: url('toolgrad_sky.gif'); background-color: #919EBE; 
+               border: 1px solid #1D2F49 }
+.ms-gridT1   { font-family: Verdana, Arial, Helvetica, sans-serif; text-align: center; 
+               color: #1D2F49 }
+select       { font-family: Verdana, Arial, Helvetica, sans-serif }
+hr           { color: #FFFFFF; height: 2px }
+.ms-formdescription a { color: #3B00CA; text-decoration: none }
+.ms-formtable .ms-formbody { line-height: 1.3em }
+.ms-radiotext { cursor: default; text-align: left; font-family: verdana; font-size: 10pt; 
+               height: 19px }
+.ms-gridtext { cursor: default; font-family: Verdana, Arial, Helvetica, sans-serif; height: 
+               19px }
+.ms-formbody { font-family: Verdana, Arial, Helvetica, sans-serif; vertical-align: top }
+table.ms-form th { color: #282A55; font-family: Verdana, Arial, Helvetica, sans-serif; 
+               font-weight: normal; vertical-align: top }
+table.ms-form td { width: 100%; vertical-align: top }
+.ms-formrecurrence { font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: normal; 
+               vertical-align: top }
+.ms-long     { font-family: Verdana, Arial, Helvetica, sans-serif; width: 386px }
+.ms-banner a:link { font-family: Verdana, Arial, Helvetica, sans-serif; color: #FFFFFF; 
+               font-weight: bold; text-decoration: none }
+.ms-banner a:visited { font-family: Verdana, Arial, Helvetica, sans-serif; color: #FFFFFF; 
+               font-weight: bold; text-decoration: none }
+.ms-nav td, .ms-nav .ms-SPZoneLabel, .ms-input { font-family: Verdana, Arial, Helvetica, sans-serif }
+.ms-nav th   { font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: normal; 
+               color: #282A55 }
+.ms-navheader a, .ms-navheader a:link, .ms-navheader a:visited { font-weight: bold }
+.ms-navframe { background-color: #BEC0CF; background-repeat: repeat; background-attachment: 
+               scroll; background-position: 0% }
+.ms-navline  { border-bottom: 1px solid #CED0DB }
+.ms-nav .ms-navwatermark { color: #ABADC1 }
+.ms-selectednav { background-color: #CFCFD7; background-repeat: repeat; background-attachment: 
+               scroll; border: 1px solid #282A55; padding-top: 1px; 
+               padding-bottom: 2px; background-position: 0% }
+.ms-unselectednav { border: 1px solid #BEC0CF; padding-top: 1px; padding-bottom: 2px }
+.ms-verticaldots { border-left-style: none; border-left-width: medium; 
+               border-right: 1px solid #FFFFFF }
+.ms-nav a:link {  }
+td.ms-titleareaframe { color: #000000; border-color: #919EBE }
+table.ms-titleareaframe { border-left-style: none; border-left-width: 0px }
+div.ms-titleareaframe { border-top: 4px solid #919EBE }
+.ms-searchform { background-color: #919EBE }
+.ms-searchcorner { background-color: #919EBE; background-image: none }
+.ms-titlearealine { background-color: #FFFFFF }
+.ms-bodyareaframe { border-color: #919EBE }
+.ms-pagetitle { font-family: Verdana, Arial, Helvetica, sans-serif }
+.ms-pagetitle a { text-decoration: none }
+.ms-pagetitle a:hover { text-decoration: underline }
+.ms-pagecaption { color: #282A55; font-family: Verdana, Arial, Helvetica, sans-serif }
+.ms-selectedtitle { background-color: #BEC0CF; border: 1px solid #EEEEF1; padding-top: 1px; 
+               padding-bottom: 2px }
+.ms-unselectedtitle { margin: 1px; padding-top: 1px; padding-bottom: 2px }
+.ms-menuimagecell { background-color: #EEEEF1; cursor: hand }
+.ms-filedialog td { height: 16px }
+.ms-alerttext { color: #DB6751; font-family: Verdana, Arial, Helvetica, sans-serif }
+.ms-sectionheader a { color: #282A55; text-decoration: none }
+.ms-sectionheader a:hover { color: #282A55; text-decoration: none }
+.ms-sectionheader a:visited { color: #282A55; text-decoration: none }
+.ms-discussiontitle { font-family: Verdana, Arial, Helvetica, sans-serif; color: #282A55; 
+               font-weight: bold }
+.ms-vh2      { font-family: Verdana, Arial, Helvetica, sans-serif; color: #3B00CA; 
+               text-decoration: none; font-weight: normal; vertical-align: top }
+.ms-vh-icon  { font-family: Verdana, Arial, Helvetica, sans-serif; color: #3B00CA; 
+               text-decoration: none; font-weight: normal; vertical-align: top; 
+               width: 22px }
+.ms-vh-icon-empty { font-family: Verdana, Arial, Helvetica, sans-serif; color: #3B00CA; 
+               text-decoration: none; font-weight: normal; vertical-align: top; 
+               width: 0px }
+.ms-vh-left  { font-family: Verdana, Arial, Helvetica, sans-serif; color: #3B00CA; 
+               text-decoration: none; font-weight: normal }
+.ms-vh-left-icon { font-family: Verdana, Arial, Helvetica, sans-serif; color: #3B00CA; 
+               text-decoration: none; font-weight: normal; width: 22px }
+.ms-vh-left-icon-empty { font-family: Verdana, Arial, Helvetica, sans-serif; color: #3B00CA; 
+               text-decoration: none; font-weight: normal; width: 0px }
+.ms-vh-right { font-family: Verdana, Arial, Helvetica, sans-serif; color: #3B00CA; 
+               text-decoration: none; font-weight: normal }
+.ms-vh-right-icon { font-family: Verdana, Arial, Helvetica, sans-serif; color: #3B00CA; 
+               text-decoration: none; font-weight: normal; width: 22px }
+.ms-vh-right-icon-empty { font-family: Verdana, Arial, Helvetica, sans-serif; color: #3B00CA; 
+               text-decoration: none; font-weight: normal; width: 0px }
+.ms-vh a, .ms-vh a:visited, .ms-vh2 a, .ms-vh2 a:visited, .ms-vh-left a, .ms-vh-right a { color: #3B00CA; text-decoration: none }
+.ms-vh a:hover, .ms-vh2 a:hover { text-decoration: underline }
+.ms-vhImage  { font-family: Verdana, Arial, Helvetica, sans-serif; color: #1D2F49; 
+               text-decoration: none; font-weight: normal; vertical-align: top; 
+               width: 18pt }
+.ms-gb       { font-family: Verdana, Arial, Helvetica, sans-serif; height: 18px; color: 
+               #282A55; background-color: #BEC0CF; font-weight: bold }
+.ms-styleheader { font-family: verdana; font-size: 0.68em; background-color: #BEC0CF }
+.ms-vb, .ms-vb2, .ms-GRFont, .ms-vb-user { font-family: Verdana, Arial, Helvetica, sans-serif; vertical-align: top }
+.ms-vb a, .ms-vb2 a, .ms-GRStatusText a, .ms-vb-user a { color: #3B00CA; text-decoration: none }
+.ms-vb a:hover, .ms-vb2 a:hover, .ms-vb-user a:hover { color: #E2FFFF; text-decoration: underline }
+.ms-vb a:visited, .ms-vb2 a:visited, .ms-GRStatusText a:visited, .ms-vb-user a:visited { color: #3B00CA; text-decoration: none }
+.ms-vb a:hover, .ms-vb2 a:hover, .ms-vb-user a:hover { color: #E2FFFF; text-decoration: underline }
+.ms-vb2, .ms-vb-title, .ms-vb-icon, .ms-vb-user { border-top: 1px solid #919EBE }
+.ms-vb-icon  { vertical-align: top; width: 16px; padding-top: 2px; padding-bottom: 0px }
+.ms-vb2      { padding-top: 3px; padding-bottom: 0px }
+.ms-addnew   { font-weight: normal; font-family: Verdana, Arial, Helvetica, sans-serif; 
+               color: #3B00CA; text-decoration: none }
+.ms-error    { font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: normal; 
+               color: #FF0000 }
+.ms-vcal     { border-collapse: separate; table-layout: fixed; font-family: 
+               Verdana, Arial, Helvetica, sans-serif; cursor: default }
+.ms-Dcal     { border-collapse: collapse; table-layout: fixed; font-family: 
+               Verdana, Arial, Helvetica, sans-serif; cursor: default; 
+               border-left: 1px solid #FFFFFF; border-right: 1px solid #FFFFFF }
+.ms-calDmidHour { height: 20px; border-color: #FFFFFF }
+.ms-calDmidHalfHour { height: 20px; border-color: #FFFFFF }
+.ms-calDmidQuarterHour { height: 20px; border-style: none; border-width: 0px }
+.ms-CalSpacer { height: 4px; border-left: 1px solid #FFFFFF; border-right: 1px solid #FFFFFF }
+.ms-CalDSpacer { height: 4px; border-left: 1px solid #FFFFFF; border-right: 1px solid #FFFFFF }
+.ms-CalVSpacer { background-color: #FFFFFF; width: 0px }
+.ms-CalAllDay { text-align: center; vertical-align: top; width: 10%; height: 12px }
+.ms-firstCalHour { vertical-align: top; width: 10%; height: 12px }
+.ms-calHour  { vertical-align: top; width: 10%; height: 12px; border-top: 1px solid #FFFFFF }
+.ms-calHalfHour { vertical-align: top; height: 12px; border-top: 1px solid #CED0DB }
+.ms-calQuarterHour { vertical-align: top; height: 12px; border-top-style: none; border-top-width: 
+               0px }
+.ms-Dappt    { text-align: center; vertical-align: middle; height: 18px; overflow: hidden; 
+               background-color: #D5D5E3; color: #282A55; 
+               border: 2px solid #FFFFFF }
+.ms-Vappt    { text-align: center; vertical-align: middle; height: 12px; overflow: hidden; 
+               text-overflow: ellipsis; background-color: #ABADC1; color: 
+               #282A55; border-left: 2px solid #C7C8D4; 
+               border-right: 2px solid #C7C8D4; border-top: 1px solid #C7C8D4; 
+               border-bottom: 3px solid #C7C8D4; padding-left: 3px; 
+               padding-right: 3px }
+.ms-Vapptsingle a, .ms-Vappt a { text-decoration: none; font-family: Verdana, Arial, Helvetica, sans-serif; 
+               font-weight: normal; color: #3B00CA; overflow: hidden; 
+               text-overflow: ellipsis }
+.ms-Vappt a:link {  }
+.ms-Vappt a:hover { text-decoration: underline; color: #282A55 }
+.ms-Vevt     { text-align: center; vertical-align: top; font-family: 
+               Verdana, Arial, Helvetica, sans-serif; font-weight: normal; 
+               height: 12px; overflow: hidden; text-overflow: ellipsis; 
+               color: #282A55; padding: 0px }
+.ms-Vevt a   { text-decoration: none; font-family: Verdana, Arial, Helvetica, sans-serif; 
+               font-weight: normal; color: #282A55 }
+.ms-Vevt a:link {  }
+.ms-Vevt a:hover { text-decoration: underline; color: #282A55 }
+.ms-Vevt a:visited { color: #DFD664 }
+.ms-apptsingle { height: 18px; vertical-align: middle; overflow: hidden; text-overflow: 
+               ellipsis; color: #282A55; border-left: 1px solid #FFFFFF; 
+               border-right: 1px solid #FFFFFF }
+.ms-Dapptsingle { height: 18px; vertical-align: middle; overflow: hidden; color: #282A55; 
+               border-left: 1px solid #FFFFFF; border-right: 1px solid #FFFFFF }
+.ms-Vapptsingle { text-align: center; vertical-align: middle; overflow: hidden; text-overflow: 
+               ellipsis; color: #282A55; background-color: #ABADC1; 
+               border: 1px solid #FFFFFF }
+.ms-Vapptsingle a:link {  }
+.ms-Vapptsingle a:hover { text-decoration: underline }
+.ms-Vapptsingle a:visited {  }
+.ms-dpnextprev { text-align: center; font-weight: bold; background-color: #697494; color: 
+               #282A55; cursor: hand; border-style: none; border-width: medium }
+.ms-discussionseparator { color: #CED0DB; height: 1px }
+.ms-stylelabel { font-family: verdana; font-size: 8pt; color: #3B00CA }
+.ms-stylebox { font-family: verdana; text-align: left; border: 1px solid #CED0DB }
+img.thumbnail { border: 3px solid #697494 }
+tr.ms-imglibselectedrow { background-color: #7587A7 }
+table.ms-imglibtitletable { border: 0px solid #919EBE }
+.ms-imglibthumbnail { background-color: #7587A7; border: 0px solid #697494 }
+span.thumbnail { position: relative; width: 5px; padding-left: 10; padding-right: 10; 
+               padding-top: 16; padding-bottom: 16 }
+span.userdata { behavior: url(#default#userData); display: none }
+.ms-imglibmenuhead { cursor: move }
+.ms-imglibmenu { background-color: #7587A7; cursor: hand; font-family: 
+               Verdana, Arial, Helvetica, sans-serif; color: #3B00CA }
+.ms-imglibmenutext { cursor: move; font-weight: bold; color: #3B00CA }
+.ms-imglibmenuarea { background-color: #7587A7 }
+img.ms-imglibpreviewarea { border: 3px solid #7587A7; margin-top: 3px }
+a.ms-imglibPreviewTitle { overflow: hidden; text-overflow: ellipsis; width: 130 }
+table.ms-imglibPreviewTable { display: none }
+.UserShadedRegion { font-family: Verdana, Arial, Helvetica, sans-serif; background-color: #BEC0CF }
+.UserCaption { font-family: Verdana, Arial, Helvetica, sans-serif; background-color: #BEC0CF }
+.UserConfiguration { font-family: Verdana, Arial, Helvetica, sans-serif; background-color: #BEC0CF }
+.UserDottedLine { height: 1px; overflow: hidden; background-color: transparent; 
+               background-image: url('dot_sky.gif'); background-repeat: 
+               repeat-x; margin-bottom: 2px }
+.UserButton, .UserInput, .UserSelect { font-family: Verdana, Arial, Helvetica, sans-serif; color: #282A55 }
+.UserNotification { font-family: Verdana, Arial, Helvetica, sans-serif; color: #1D2F49; padding: 
+               4px }
+.UserToolBarTextArea { font-weight: normal; font-family: Verdana, Arial, Helvetica, sans-serif; 
+               padding-bottom: 5px }
+.UserToolbarTextArea a:link { color: #3B00CA; text-decoration: none }
+.UserToolbarTextArea a:visited { color: #3B00CA; text-decoration: none }
+.UserToolbarTextArea a:hover { color: #E2FFFF; text-decoration: underline }
+.UserToolbarDisabledLink { color: #697494; font-family: Verdana, Arial, Helvetica, sans-serif; padding: 
+               4px }
+.UserToolbarImage { cursor: hand; background-color: #1D2F49; text-align: center; border-style: 
+               none; border-width: medium }
+.UserToolBarImageArea { font-weight: normal; font-family: Verdana, Arial, Helvetica, sans-serif; 
+               padding-bottom: 5px }
+.UserToolbarSelectedImage { font-weight: bold; vertical-align: top; text-align: center; 
+               border-left-style: none; border-left-width: medium; 
+               border-right-style: none; border-right-width: medium; 
+               border-top-style: none; border-top-width: medium; 
+               border-bottom: 1px solid #000000 }
+.UserGenericHeader { font-weight: bold; color: #282A55; font-family: 
+               Verdana, Arial, Helvetica, sans-serif }
+.UserGeneric { padding-left: 5px; padding-right: 5px; padding-top: 8px; padding-bottom: 7px }
+.UserGenericText { color: #282A55 }
+.UserGenericBody { padding-left: 17px; padding-right: 0px; padding-top: 5px; padding-bottom: 0px }
+.UserSectionTitle { font-weight: bold; width: 100%; color: #282A55; 
+               border-bottom: 1px solid #697494; margin-bottom: 5px; 
+               padding-bottom: 2px }
+.UserSectionHead { width: 100%; color: #282A55; padding-left: 0px; padding-right: 0px; 
+               padding-top: 0px; padding-bottom: 3px }
+.UserSectionFooter { color: #282A55; border-top: 1px solid #697494 }
+.UserSectionBody { width: 100%; padding-left: 7px; padding-right: 0px; padding-top: 0px; 
+               padding-bottom: 0px }
+.UserControlGroup { padding-top: 2px; padding-bottom: 10px }
+.UserFooter  { width: 100%; padding-left: 7px; padding-right: 7px; padding-top: 10px; 
+               padding-bottom: 7px }
+.UserCommandArea { padding-top: 7px }
+.UserToolbar { background-image: url('toolgrad_sky.gif'); background-repeat: repeat-x; 
+               background-color: transparent; border: 1px solid #1D2F49 }
+.UserCellSelected { font-family: Verdana, Arial, Helvetica, sans-serif; background-color: #CFCFD7; 
+               color: #282A55; border: 1px solid #339966; padding-left: 4px; 
+               padding-right: 4px; padding-top: 1px; padding-bottom: 2px }
+.UserCell    { font-family: Verdana, Arial, Helvetica, sans-serif; color: #282A55; 
+               padding-left: 5px; padding-right: 5px; padding-top: 2px; 
+               padding-bottom: 3px }
+.UserGenericBulletItem { padding-bottom: 2px }
+.ms-ToolPaneFrame { background-color: #BEC0CF; padding: 0px }
+.ms-ToolPaneBody { padding-top: 2px; padding-bottom: 2px }
+.ms-ToolPaneHeader { background-color: #697494; border-style: none }
+.ms-ToolPaneBorder { border-left: 1px solid #919EBE; border-right: 1px solid #919EBE; 
+               border-top-style: none; border-top-width: medium; 
+               border-bottom-style: none; border-bottom-width: medium }
+.ms-ToolPaneClose { background-color: #697494 }
+.ms-ToolPaneTitle { color: #282A55; font-weight: bold; font-family: 
+               Verdana, Arial, Helvetica, sans-serif; background-color: 
+               #697494; padding-top: 3px; padding-bottom: 3px }
+.ms-ToolPaneFooter { background-color: #697494; font-family: Verdana, Arial, Helvetica, sans-serif; 
+               color: #282A55; padding: 5px }
+.ms-ToolPaneError { color: #db6751; font-family: Verdana, Arial, Helvetica, sans-serif; padding: 
+               2px }
+.ms-ToolPaneInfo { color: #282A55; font-family: Verdana, Arial, Helvetica, sans-serif; 
+               background-color: #919EBE; padding-left: 5px; padding-right: 
+               5px; padding-top: 5px; padding-bottom: 0px }
+.ms-ToolPartSpacing { padding-top: 8px }
+.ms-TPBorder { border-style: none; border-width: medium }
+.ms-TPHeader { background-color: #CED0DB }
+.ms-TPTitle  { color: #282A55; font-weight: bold; font-family: 
+               Verdana, Arial, Helvetica, sans-serif; padding-top: 2px; 
+               padding-bottom: 2px }
+.ms-TPBody   { color: #282A55; font-family: Verdana, Arial, Helvetica, sans-serif }
+.ms-TPBody a:link, .ms-TPBody a:visited, .ms-TPBody a:hover { color: #3B00CA; text-decoration: none; cursor: hand }
+.ms-TPCommands {  }
+.ms-TPInput  { color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif }
+.ms-CategoryTitle { font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; 
+               text-decoration: none }
+.ms-PropGridBuilderButton { width: 16px; display: none; background-color: #697494; 
+               border: 1px solid #EEEEF1 }
+.ms-SPZone   { border: 1px solid #1D2F49; padding: 5px }
+.ms-SPZoneSelected { border: 1px solid #919EBE; padding: 5px }
+.ms-SPZoneIBar { border: 3px solid #919EBE }
+.ms-SPZoneLabel { color: #1D2F49; font-family: Verdana, Arial, Helvetica, sans-serif; padding: 0 }
+.ms-SPError  { color: #DB6751; font-family: Verdana, Arial, Helvetica, sans-serif; 
+               border-bottom: 2px solid #919EBE; padding: 2px }
+.ms-SPZoneCaption { color: #1D2F49; font-family: Verdana, Arial, Helvetica, sans-serif }
+.ms-WPDesign { background-color: #919EBE }
+.ms-WPMenu   { background-color: #919EBE }
+.ms-WPTitle  { font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif; color: 
+               #000000; padding-top: 2px; padding-bottom: 2px }
+.ms-WPTitle a:link, .ms-WPTitle a:visited { color: #000000; text-decoration: none; cursor: hand }
+.ms-WPTitle a:hover { color: #E2FFFF; text-decoration: underline; cursor: hand }
+.ms-WPSelected { border: 3px dashed #2F883F }
+.ms-WPBody   { font-family: Verdana, Arial, Helvetica, sans-serif }
+.ms-WPBody table, .ms-TPBody table {  }
+.ms-WPBody a:link, .ms-WPBody a:visited { color: #3B00CA; text-decoration: none }
+.ms-WPBody a:hover { color: #E2FFFF; text-decoration: underline }
+.ms-WPBody th, .ms-TPBody th { font-weight: bold }
+.ms-WPBody td { font-family: Verdana, Arial, Helvetica, sans-serif }
+.ms-WPBody h1, .ms-TPBody h1 { font-weight: bold }
+.ms-WPBody h2, .ms-TPBody h2 { font-weight: bold }
+.ms-WPBody h3, .ms-TPBody h3 { font-weight: bold }
+.ms-WPBody h4, .ms-TPBody h4 { font-weight: bold }
+.ms-WPBody h5, .ms-TPBody h5 { font-weight: bold }
+.ms-WPBody h6, .ms-TPBody h6 { font-weight: bold }
+.ms-WPBorder { border-left: 1px solid #CED0DB; border-right: 1px solid #CED0DB; 
+               border-top-style: none; border-bottom: 1px solid #CED0DB }
+.ms-HoverCellActive { background-color: #858ea9; border: 1px solid #3b00ca }
+.ms-HoverCellActiveDark { background-color: #919EBE; border: 1px solid #7C728B }
+.ms-SPLink   { font-family: Verdana, Arial, Helvetica, sans-serif; color: #3b00ca }
+.ms-SPLink a:link, .ms-SPLink a:visited { color: #3b00ca; text-decoration: none }
+.ms-SPButton { font-family: Verdana, Arial, Helvetica, sans-serif }
+.ms-PartSpacingVertical, .ms-PartSpacingHorizontal { padding-top: 10px }
+.ms-WPHeader { background-color: #BEC0CF; background-image: url('partgrad.gif'); 
+               background-repeat: repeat-x }
+.ms-PageHeaderDate { color: #282A55; font-family: Verdana, Arial, Helvetica, sans-serif }
+.ms-PageHeaderGreeting { color: #282A55; font-family: Verdana, Arial, Helvetica, sans-serif }
+.ms-rtApplyBackground { background-color: #C6C6D2; border: 0.02cm solid #EEEEF1 }
+.ms-rtRemoveBackground { background-color: transparent; border: 0.02cm solid #CFCFD7 }
+.ms-rtToolbarDefaultStyle { font-style: normal; font-variant: normal; font-weight: normal; font-size: 8pt; 
+               font-family: Verdana, Arial, Helvetica, sans-serif }
+.ms-subsmanageheader { background-color: #BEC0CF; font-family: Verdana, Arial, Helvetica, sans-serif; 
+               text-decoration: none; font-weight: bold; vertical-align: top }
+.ms-subsmanagecell { color: #282A55; font-family: Verdana, Arial, Helvetica, sans-serif; height: 
+               18px; vertical-align: top }
+.ms-ConnError { color: #db6751 }
+.ms-storMeUsed { background-color: #3072FF }
+.ms-storMeFree { background-color: #4E1D81 }
+.ms-storMeEstimated { background-color: #E2FFFF }
+.ms-underline { vertical-align: top; border-bottom: 1px solid #919EBE; padding-left: 4; 
+               padding-right: 4; padding-top: 2; padding-bottom: 4 }
+.ms-underlineback { vertical-align: top; background-color: #BEC0CF; 
+               border-bottom: 1px solid #919EBE; padding-left: 4; 
+               padding-right: 4; padding-top: 2; padding-bottom: 4 }
+.ms-smallheader { font-weight: bold; color: #282A55; font-family: 
+               Verdana, Arial, Helvetica, sans-serif }
+.ms-smallsectionline { border-bottom: 1px solid #919EBE; padding-left: 0; padding-right: 0; 
+               padding-top: 2; padding-bottom: 0 }
+.ms-tabselected { font-family: Verdana, Arial, Helvetica, sans-serif; background-color: #FFFFFF; 
+               font-weight: bold; color: #000000; border: 2px solid #FFFFFF; 
+               padding-left: 10px; padding-right: 10px; padding-top: 3px; 
+               padding-bottom: 3px }
+.ms-tabinactive { font-family: Verdana, Arial, Helvetica, sans-serif; background-color: #BEC0CF; 
+               color: #3B00CA; border: 2px solid #BEC0CF; padding-left: 10px; 
+               padding-right: 10px; padding-top: 3px; padding-bottom: 3px }
+.ms-tabinactive a:link, .ms-tabinactive a:hover, .ms-tabinactive a:visited { color: #3B00CA; text-decoration: none }
+.ms-surveyVBarT { font-size: 7pt; font-family: verdana; text-align: center; color: #1D2F49 }
+.ms-surveyGVVBar { width: 9px; background-color: #C7C8D4; border-top: 0px solid #C7C8D4; 
+               border-bottom: 0px solid #EEEEF1 }
+.ms-surveyGVVBarS { width: 20px }
+.ms-uploadborder { border: 1px solid #697494 }
+.ms-uploadcontrol { background-color: #D5D5E3 }
+.ms-highlight { background-color: #697494 }
+.UserBackground { background-color: #CFCFD7 }
+.ms-MWSSelectedInstance { color: #282A55; text-decoration: none }
+.ms-MWSInstantiated a:link, .ms-MWSInstantiated a:visited { color: #3B00CA; text-decoration: none }
+.ms-MWSInstantiated a:hover { color: #E2FFFF; text-decoration: underline }
+.ms-MWSUninstantiated a:link, .ms-MWSUninstantiated a:visited { color: #3B00CA; text-decoration: none }
+.ms-MWSUninstantiated a:hover { color: #3B00CA; text-decoration: underline }
+.ms-ToolStrip { color: #000000; background-color: #BEC0CF; border: 1px solid #1D2F49 }

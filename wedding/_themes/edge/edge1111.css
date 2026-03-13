@@ -1,0 +1,517 @@
+.mstheme     { nav-banner-image: url(aedgbanr.gif); separator-image: url(aedgrule.gif); 
+               list-image-1: url(aedgbul1.gif); list-image-2: 
+               url(aedgbul2.gif); list-image-3: url(aedgbul3.gif); 
+               navbutton-horiz-pushed: url(aedghsel.gif); 
+               navbutton-horiz-normal: url(aedghbtn.gif); 
+               navbutton-horiz-hovered: url(aedghhov.gif); 
+               navbutton-vert-pushed: url(aedgvsel.gif); 
+               navbutton-vert-normal: url(aedgvbtn.gif); 
+               navbutton-vert-hovered: url(aedgvhov.gif); 
+               navbutton-home-normal: url(aedghom.gif); 
+               navbutton-home-hovered: url(aedghomh.gif); 
+               navbutton-up-normal: url(aedgup.gif); navbutton-up-hovered: 
+               url(aedguph.gif); navbutton-prev-normal: url(aedgbck.gif); 
+               navbutton-prev-hovered: url(aedgbckh.gif); 
+               navbutton-next-normal: url(aedgnxt.gif); 
+               navbutton-next-hovered: url(aedgnxth.gif) }
+ul           { list-style-image: url('aedgbul1.gif') }
+ul ul        { list-style-image: url('aedgbul2.gif') }
+ul ul ul     { list-style-image: url('aedgbul3.gif') }
+.mstheme-bannertxt { font-family: georgia, 'Times New Roman', Times; font-size: 5; color: #000000 }
+.mstheme-horiz-navtxt { font-family: georgia, 'times new roman', times; font-size: 2; color: #000000 }
+.mstheme-vert-navtxt { font-family: georgia, 'times new roman', times; font-size: 2; color: #000000 }
+.mstheme-navtxthome { font-family: georgia, 'times new roman', times; font-size: 1; color: #000000 }
+.mstheme-navtxtup { font-family: georgia, 'times new roman', times; font-size: 1; color: #000000 }
+.mstheme-navtxtprev { font-family: georgia, 'times new roman', times; font-size: 1; color: #000000 }
+.mstheme-navtxtnext { font-family: georgia, 'times new roman', times; font-size: 1; color: #000000 }
+a:link       { color: #009933 }
+a:visited    { color: #996633 }
+a:active     { color: #666699 }
+body         { color: #000000; background-color: #FFFFFF }
+h1           { color: #000000 }
+h2, marquee  { color: #000000 }
+h3           { color: #000000 }
+h4           { color: #000000 }
+h5           { color: #000000 }
+h6           { color: #000000 }
+label, .MSTHEME-LABEL { color: #000000 }
+fieldset     { color: #000000; border-color: #006633 }
+legend       { color: #000000 }
+select       { color: #000000; border-color: #BBBBBB }
+table        { table-border-color-light: #CC9933; table-border-color-dark: #006633; color: 
+               #000000; border-color: #006633 }
+caption      { color: #000000 }
+th           { color: #000000 }
+hr           { color: #006633 }
+td           { border-color: #006633 }
+.mstheme     { navbutton-background-color: #FFFFFF; top-bar-button: url(edgglobl.gif) }
+body         { font-family: georgia, 'times new roman', times; background-image: 
+               url('edgbkgnd.gif') }
+il           { list-style-image: url('edgbul2.gif') }
+table.ms-toolbar { background-image: url('toolgrad.gif'); border: 1px solid #BBBBBB }
+.UserDottedLine { height: 1px; overflow: hidden; background-color: transparent; 
+               background-image: url('dot.gif'); background-repeat: repeat-x; 
+               margin-bottom: 2px }
+.UserToolbar { background-image: url('toolgrad.gif'); background-repeat: repeat-x; 
+               background-color: transparent; border: 1px solid #BBBBBB }
+.mstheme-topbar-font { font-family: georgia, 'times new roman', times; color: #000000 }
+h1           { font-family: georgia, 'Times New Roman', Times; font-weight: bold; 
+               font-style: normal }
+h2           { font-family: georgia, 'Times New Roman', Times; font-weight: normal; 
+               font-style: normal }
+h3           { font-family: georgia, 'Times New Roman', Times; font-weight: normal; 
+               font-style: normal }
+h4           { font-family: georgia, 'Times New Roman', Times; font-weight: normal; 
+               font-style: normal }
+h5           { font-family: georgia, 'Times New Roman', Times; font-weight: normal; 
+               font-style: normal }
+h6           { font-family: georgia, 'Times New Roman', Times; font-weight: normal; 
+               font-style: normal }
+button       { font-family: Arial, Helvetica, sans-serif; font-style: normal; border-style: 
+               solid; border-width: 1pt }
+label, .MSTHEME-LABEL { font-family: georgia, 'times new roman', times; font-style: normal }
+textarea     { font-family: georgia, 'times new roman', times; font-style: normal; 
+               border-width: 1pt }
+fieldset     { font-family: georgia, 'times new roman', times; font-style: normal; 
+               border-style: solid; border-width: 1pt }
+legend       { font-family: georgia, 'times new roman', times; font-style: normal }
+select       { font-family: georgia, 'times new roman', times; font-style: normal; 
+               border-style: solid; border-width: 1pt }
+table        { font-family: georgia, 'times new roman', times; font-style: normal }
+caption      { font-family: georgia, 'times new roman', times; font-style: normal }
+th           { font-family: georgia, 'times new roman', times; font-style: bold }
+marquee      { font-family: georgia, 'times new roman', times }
+.ms-main     { border-color: #CC9933 }
+.ms-bannerframe, .ms-GRHeaderBackground, .ms-storMeFree { background-color: #006633; background-repeat: repeat-x }
+.ms-banner   { color: #CC9933; font-family: georgia, 'times new roman', times }
+.ms-banner a:link { font-family: georgia, 'times new roman', times; color: #000000; font-weight: 
+               normal; text-decoration: none }
+.ms-banner a:visited { font-family: georgia, 'times new roman', times; color: #000000; font-weight: 
+               normal; text-decoration: none }
+.ms-nav td   { font-family: georgia, 'times new roman', times; font-weight: normal; color: 
+               #000000 }
+.ms-navframe { border-color: #F2DEB6 }
+.ms-nav a    { text-decoration: none; font-family: georgia, 'times new roman', times; 
+               font-weight: normal; color: #CC9933 }
+.ms-nav a:hover { text-decoration: underline; color: #666699 }
+.ms-nav a:visited { color: #CC9933 }
+.ms-viewselect a:link { font-family: georgia, 'times new roman', times; color: #CC9933 }
+.ms-titlearea { font-family: georgia, 'times new roman', times; color: #000000 }
+.ms-pagetitle { color: #000000; font-family: georgia, 'times new roman', times; font-weight: 
+               bold }
+.ms-pagetitle a { text-decoration: underline; color: #CC9933 }
+.ms-pagetitle a:hover { text-decoration: underline; color: #666699 }
+.ms-announcementtitle { font-weight: bold }
+.ms-formlabel { font-family: verdana; font-size: .7em; font-weight: normal; color: #808080 }
+.ms-formbody { font-family: georgia, 'times new roman', times; color: #000000 }
+.ms-formdescription { font-family: georgia, 'times new roman', times; color: #808080 }
+.ms-selected { background-color: #006633; color: #000000 }
+.ms-selected span { color: #006633 }
+.ms-filedialog td { height: 16px }
+.ms-descriptiontext { color: #000000; font-family: georgia, 'times new roman', times }
+.ms-descriptiontext a { color: #CC9933; font-family: georgia, 'times new roman', times }
+.ms-separator { color: #000000 }
+.ms-authoringcontrols { background-color: #F2DEB6; font-family: georgia, 'times new roman', times; 
+               color: #000000 }
+.ms-alternating { background-color: #F2DEB6 }
+.ms-back     { vertical-align: top; background-color: #F2DEB6; padding-left: 4; 
+               padding-right: 4; padding-top: 2; padding-bottom: 4 }
+.ms-sectionheader { color: #000000; font-family: georgia, 'times new roman', times; font-weight: 
+               bold }
+.ms-sectionline { background-color: #006633 }
+.ms-partline { background-color: #006633 }
+.ms-propertysheet { font-family: georgia, 'times new roman', times }
+.ms-propertysheet th { font-family: georgia, 'times new roman', times; color: #000000; font-weight: 
+               bold }
+.ms-propertysheet a { text-decoration: none; color: #CC9933 }
+.ms-propertysheet a:hover { text-decoration: underline; color: #666699 }
+.ms-propertysheet a:visited { text-decoration: none; color: #999966 }
+.ms-propertysheet a:hover { text-decoration: underline }
+.ms-itemheader a { font-family: georgia, 'times new roman', times; font-weight: bold; color: 
+               #000000; text-decoration: none }
+.ms-itemheader a:hover { text-decoration: underline; color: #000000 }
+.ms-itemheader a:visited { text-decoration: none; color: #000000 }
+.ms-itemheader a:hover { text-decoration: underline }
+.ms-vh       { font-family: georgia, 'times new roman', times; color: #CC9933; 
+               text-decoration: none; font-weight: normal }
+.ms-vb       { font-family: georgia, 'times new roman', times; color: #000000; height: 18px; 
+               vertical-align: top }
+.ms-homepagetitle { font-family: georgia, 'times new roman', times; color: #000000; font-weight: 
+               bold; text-decoration: none }
+.ms-homepagetitle:hover { text-decoration: underline; color: #CC9933 }
+.ms-addnew   { font-weight: normal; font-family: georgia, 'times new roman', times; color: 
+               #000000; text-decoration: none }
+.ms-cal      { border-collapse: collapse; table-layout: fixed; font-family: 
+               georgia, 'times new roman', times; cursor: default }
+.ms-caltop   { vertical-align: top; width: 14%; height: 30px; border-left: 1px solid #006633; 
+               border-right: 1px solid #006633; border-top: 1px solid #006633 }
+.ms-calhead  { text-align: center; background-color: #000000; color: #FFFFFF; font-family: 
+               georgia, 'times new roman', times; border-style: none; 
+               border-width: medium; padding: 2px }
+.ms-caldow   { vertical-align: top; text-align: center; font-weight: bold; color: #000000; 
+               height: 20px; border-left: 1px solid #006633; 
+               border-right: 1px solid #006633; border-top: 1px solid #006633 }
+.ms-calmid   { height: 20px; border-left: 1px solid #006633; border-right: 1px solid #006633 }
+.ms-calspacer { height: 4px; border-left: 1px solid #006633; border-right: 1px solid #006633 }
+.ms-calbot   { height: 2px; border-left: 1px solid #006633; border-right: 1px solid #006633; 
+               border-top-style: none; border-top-width: medium; 
+               border-bottom: 1px solid #006633 }
+.ms-appt a   { color: #CC9933 }
+.ms-appt a:hover { color: #666699 }
+.ms-appt     { text-align: center; vertical-align: middle; height: 18px; overflow: hidden; 
+               text-overflow: ellipsis; background-color: #006633; color: 
+               #000000; border: 2px solid #006633 }
+.ms-caldowdown { font-family: georgia, 'times new roman', times; font-weight: bold; color: 
+               #000000; text-align: center; vertical-align: middle }
+.ms-caldown  { color: #000000; vertical-align: top }
+.ms-datepickeriframe { position: absolute; display: none; background-color: #FFFFFF; 
+               background-repeat: repeat; background-attachment: scroll; 
+               background-position: 0% }
+.ms-datepicker { font-family: Arial, Helvetica, sans-serif; background-color: #FFFFFF; color: 
+               #000000; cursor: default; border: 2 outset activeborder }
+.ms-dpdow    { vertical-align: top; text-align: center; font-weight: bold; color: #000000; 
+               border-left-style: none; border-left-width: medium; 
+               border-right-style: none; border-right-width: medium; 
+               border-top-style: none; border-top-width: medium; 
+               border-bottom: 1px solid #006633 }
+.ms-dpday    { text-align: center; cursor: hand; border-style: none; border-width: medium }
+.ms-dpselectedday { background-color: #F2DEB6; text-align: center; cursor: hand; border-style: 
+               none; border-width: medium }
+.ms-dpnonmonth { color: #BBBBBB; text-align: center; cursor: hand; border-style: none; 
+               border-width: medium }
+.ms-dphead   { text-align: center; font-weight: bold; background-color: #C8A868; color: 
+               #000000; border-style: none; border-width: medium }
+.ms-dpfoot   { text-align: center; font-style: italic; height: 24px; border-left-style: none; 
+               border-left-width: medium; border-right-style: none; 
+               border-right-width: medium; border-top-style: solid; 
+               border-top-width: 1px; border-bottom-style: none; 
+               border-bottom-width: medium }
+img.ms-button { cursor: hand }
+.ms-toolbar, .ms-toolbar a:visited { font-family: georgia, 'times new roman', times; text-decoration: none; color: 
+               #CC9933 }
+.ms-stylebody { font-family: verdana; font-size: 8pt }
+.ms-styleheader a:link, .ms-stylebody a:link { color: #CC9933; text-decoration: none }
+.ms-styleheader a:visited, .ms-stylebody a:visited { text-decoration: none }
+.ms-styleheader a:hover, .ms-stylebody a:hover { color: #ff3300; text-decoration: underline }
+.ms-gridT1   { font-family: georgia, 'times new roman', times; text-align: center; color: 
+               #BBBBBB }
+select       { font-family: georgia, 'times new roman', times }
+hr           { color: #333333; height: 2px }
+.ms-formdescription a { color: #CC9933; text-decoration: none }
+.ms-formtable .ms-formbody { line-height: 1.3em }
+.ms-radiotext { cursor: default; text-align: left; font-family: verdana; font-size: 10pt; 
+               height: 19px }
+.ms-gridtext { cursor: default; font-family: georgia, 'times new roman', times; height: 19px }
+.ms-formbody { font-family: georgia, 'times new roman', times; vertical-align: top }
+table.ms-form th { color: #000000; font-family: georgia, 'times new roman', times; font-weight: 
+               normal; vertical-align: top }
+table.ms-form td { width: 100%; vertical-align: top }
+.ms-formrecurrence { font-family: georgia, 'times new roman', times; font-weight: normal; 
+               vertical-align: top }
+.ms-long     { font-family: Arial, Helvetica, sans-serif; width: 386px }
+.ms-banner a:link { font-family: georgia, 'times new roman', times; color: #FFFFFF; font-weight: 
+               bold; text-decoration: none }
+.ms-banner a:visited { font-family: georgia, 'times new roman', times; color: #FFFFFF; font-weight: 
+               bold; text-decoration: none }
+.ms-nav td, .ms-nav .ms-SPZoneLabel, .ms-input { font-family: georgia, 'times new roman', times }
+.ms-nav th   { font-family: georgia, 'times new roman', times; font-weight: normal; color: 
+               #000000 }
+.ms-navheader a, .ms-navheader a:link, .ms-navheader a:visited { font-weight: bold }
+.ms-navframe { background-color: #F2DEB6; background-repeat: repeat; background-attachment: 
+               scroll; background-position: 0% }
+.ms-navline  { border-bottom: 1px solid #006633 }
+.ms-nav .ms-navwatermark { color: #E8CD98 }
+.ms-selectednav { background-color: #FFFFFF; background-repeat: repeat; background-attachment: 
+               scroll; border: 1px solid #000000; padding-top: 1px; 
+               padding-bottom: 2px; background-position: 0% }
+.ms-unselectednav { border: 1px solid #F2DEB6; padding-top: 1px; padding-bottom: 2px }
+.ms-verticaldots { border-left-style: none; border-left-width: medium; 
+               border-right: 1px solid #006633 }
+.ms-nav a:link {  }
+td.ms-titleareaframe { color: #000000; border-color: #CC9933 }
+table.ms-titleareaframe { border-left-style: none; border-left-width: 0px }
+div.ms-titleareaframe { border-top: 4px solid #CC9933 }
+.ms-searchform { background-color: #CC9933 }
+.ms-searchcorner { background-color: #CC9933; background-image: none }
+.ms-titlearealine { background-color: #006633 }
+.ms-bodyareaframe { border-color: #CC9933 }
+.ms-pagetitle { font-family: georgia, 'times new roman', times }
+.ms-pagetitle a { text-decoration: none }
+.ms-pagetitle a:hover { text-decoration: underline }
+.ms-pagecaption { color: #000000; font-family: georgia, 'times new roman', times }
+.ms-selectedtitle { background-color: #F2DEB6; border: 1px solid #CC9933; padding-top: 1px; 
+               padding-bottom: 2px }
+.ms-unselectedtitle { margin: 1px; padding-top: 1px; padding-bottom: 2px }
+.ms-menuimagecell { background-color: #F2DEB6; cursor: hand }
+.ms-filedialog td { height: 16px }
+.ms-alerttext { color: #DB6751; font-family: georgia, 'times new roman', times }
+.ms-sectionheader a { color: #000000; text-decoration: none }
+.ms-sectionheader a:hover { color: #000000; text-decoration: none }
+.ms-sectionheader a:visited { color: #000000; text-decoration: none }
+.ms-discussiontitle { font-family: georgia, 'times new roman', times; color: #000000; font-weight: 
+               bold }
+.ms-vh2      { font-family: georgia, 'times new roman', times; color: #CC9933; 
+               text-decoration: none; font-weight: normal; vertical-align: top }
+.ms-vh-icon  { font-family: georgia, 'times new roman', times; color: #CC9933; 
+               text-decoration: none; font-weight: normal; vertical-align: top; 
+               width: 22px }
+.ms-vh-icon-empty { font-family: georgia, 'times new roman', times; color: #CC9933; 
+               text-decoration: none; font-weight: normal; vertical-align: top; 
+               width: 0px }
+.ms-vh-left  { font-family: georgia, 'times new roman', times; color: #CC9933; 
+               text-decoration: none; font-weight: normal }
+.ms-vh-left-icon { font-family: georgia, 'times new roman', times; color: #CC9933; 
+               text-decoration: none; font-weight: normal; width: 22px }
+.ms-vh-left-icon-empty { font-family: georgia, 'times new roman', times; color: #CC9933; 
+               text-decoration: none; font-weight: normal; width: 0px }
+.ms-vh-right { font-family: georgia, 'times new roman', times; color: #CC9933; 
+               text-decoration: none; font-weight: normal }
+.ms-vh-right-icon { font-family: georgia, 'times new roman', times; color: #CC9933; 
+               text-decoration: none; font-weight: normal; width: 22px }
+.ms-vh-right-icon-empty { font-family: georgia, 'times new roman', times; color: #CC9933; 
+               text-decoration: none; font-weight: normal; width: 0px }
+.ms-vh a, .ms-vh a:visited, .ms-vh2 a, .ms-vh2 a:visited, .ms-vh-left a, .ms-vh-right a { color: #CC9933; text-decoration: none }
+.ms-vh a:hover, .ms-vh2 a:hover { text-decoration: underline }
+.ms-vhImage  { font-family: georgia, 'times new roman', times; color: #6E6E6E; 
+               text-decoration: none; font-weight: normal; vertical-align: top; 
+               width: 18pt }
+.ms-gb       { font-family: georgia, 'times new roman', times; height: 18px; color: #000000; 
+               background-color: #F2DEB6; font-weight: bold }
+.ms-styleheader { font-family: verdana; font-size: 0.68em; background-color: #F2DEB6 }
+.ms-vb, .ms-vb2, .ms-GRFont, .ms-vb-user { font-family: georgia, 'times new roman', times; vertical-align: top }
+.ms-vb a, .ms-vb2 a, .ms-GRStatusText a, .ms-vb-user a { color: #CC9933; text-decoration: none }
+.ms-vb a:hover, .ms-vb2 a:hover, .ms-vb-user a:hover { color: #666699; text-decoration: underline }
+.ms-vb a:visited, .ms-vb2 a:visited, .ms-GRStatusText a:visited, .ms-vb-user a:visited { color: #CC9933; text-decoration: none }
+.ms-vb a:hover, .ms-vb2 a:hover, .ms-vb-user a:hover { color: #666699; text-decoration: underline }
+.ms-vb2, .ms-vb-title, .ms-vb-icon, .ms-vb-user { border-top: 1px solid #CC9933 }
+.ms-vb-icon  { vertical-align: top; width: 16px; padding-top: 2px; padding-bottom: 0px }
+.ms-vb2      { padding-top: 3px; padding-bottom: 0px }
+.ms-addnew   { font-weight: normal; font-family: georgia, 'times new roman', times; color: 
+               #CC9933; text-decoration: none }
+.ms-error    { font-family: georgia, 'times new roman', times; font-weight: normal; color: 
+               #db6751 }
+.ms-vcal     { border-collapse: separate; table-layout: fixed; font-family: 
+               georgia, 'times new roman', times; cursor: default }
+.ms-Dcal     { border-collapse: collapse; table-layout: fixed; font-family: 
+               georgia, 'times new roman', times; cursor: default; 
+               border-left: 1px solid #006633; border-right: 1px solid #006633 }
+.ms-calDmidHour { height: 20px; border-color: #006633 }
+.ms-calDmidHalfHour { height: 20px; border-color: #006633 }
+.ms-calDmidQuarterHour { height: 20px; border-style: none; border-width: 0px }
+.ms-CalSpacer { height: 4px; border-left: 1px solid #006633; border-right: 1px solid #006633 }
+.ms-CalDSpacer { height: 4px; border-left: 1px solid #006633; border-right: 1px solid #006633 }
+.ms-CalVSpacer { background-color: #006633; width: 0px }
+.ms-CalAllDay { text-align: center; vertical-align: top; width: 10%; height: 12px }
+.ms-firstCalHour { vertical-align: top; width: 10%; height: 12px }
+.ms-calHour  { vertical-align: top; width: 10%; height: 12px; border-top: 1px solid #006633 }
+.ms-calHalfHour { vertical-align: top; height: 12px; border-top: 1px solid #006633 }
+.ms-calQuarterHour { vertical-align: top; height: 12px; border-top-style: none; border-top-width: 
+               0px }
+.ms-Dappt    { text-align: center; vertical-align: middle; height: 18px; overflow: hidden; 
+               background-color: #006633; color: #000000; 
+               border: 2px solid #006633 }
+.ms-Vappt    { text-align: center; vertical-align: middle; height: 12px; overflow: hidden; 
+               text-overflow: ellipsis; background-color: #E8CD98; color: 
+               #000000; border-left: 2px solid #996600; 
+               border-right: 2px solid #996600; border-top: 1px solid #996600; 
+               border-bottom: 3px solid #996600; padding-left: 3px; 
+               padding-right: 3px }
+.ms-Vapptsingle a, .ms-Vappt a { text-decoration: none; font-family: georgia, 'times new roman', times; 
+               font-weight: normal; color: #CC9933; overflow: hidden; 
+               text-overflow: ellipsis }
+.ms-Vappt a:link {  }
+.ms-Vappt a:hover { text-decoration: underline; color: #000000 }
+.ms-Vevt     { text-align: center; vertical-align: top; font-family: 
+               georgia, 'times new roman', times; font-weight: normal; 
+               height: 12px; overflow: hidden; text-overflow: ellipsis; 
+               color: #000000; padding: 0px }
+.ms-Vevt a   { text-decoration: none; font-family: georgia, 'times new roman', times; 
+               font-weight: normal; color: #000000 }
+.ms-Vevt a:link {  }
+.ms-Vevt a:hover { text-decoration: underline; color: #000000 }
+.ms-Vevt a:visited { color: #DFD664 }
+.ms-apptsingle { height: 18px; vertical-align: middle; overflow: hidden; text-overflow: 
+               ellipsis; color: #000000; border-left: 1px solid #333333; 
+               border-right: 1px solid #333333 }
+.ms-Dapptsingle { height: 18px; vertical-align: middle; overflow: hidden; color: #000000; 
+               border-left: 1px solid #333333; border-right: 1px solid #333333 }
+.ms-Vapptsingle { text-align: center; vertical-align: middle; overflow: hidden; text-overflow: 
+               ellipsis; color: #000000; background-color: #E8CD98; 
+               border: 1px solid #333333 }
+.ms-Vapptsingle a:link {  }
+.ms-Vapptsingle a:hover { text-decoration: underline }
+.ms-Vapptsingle a:visited {  }
+.ms-dpnextprev { text-align: center; font-weight: bold; background-color: #C8A868; color: 
+               #000000; cursor: hand; border-style: none; border-width: medium }
+.ms-discussionseparator { color: #006633; height: 1px }
+.ms-stylelabel { font-family: verdana; font-size: 8pt; color: #006633 }
+.ms-stylebox { font-family: verdana; text-align: left; border: 1px solid #006633 }
+img.thumbnail { border: 3px solid #C8A868 }
+tr.ms-imglibselectedrow { background-color: #F2DEB6 }
+table.ms-imglibtitletable { border: 0px solid #CC9933 }
+.ms-imglibthumbnail { background-color: #F2DEB6; border: 0px solid #C8A868 }
+span.thumbnail { position: relative; width: 5px; padding-left: 10; padding-right: 10; 
+               padding-top: 16; padding-bottom: 16 }
+span.userdata { behavior: url(#default#userData); display: none }
+.ms-imglibmenuhead { cursor: move }
+.ms-imglibmenu { background-color: #F2DEB6; cursor: hand; font-family: 
+               georgia, 'times new roman', times; color: #CC9933 }
+.ms-imglibmenutext { cursor: move; font-weight: bold; color: #CC9933 }
+.ms-imglibmenuarea { background-color: #F2DEB6 }
+img.ms-imglibpreviewarea { border: 3px solid #F2DEB6; margin-top: 3px }
+a.ms-imglibPreviewTitle { overflow: hidden; text-overflow: ellipsis; width: 130 }
+table.ms-imglibPreviewTable { display: none }
+.UserShadedRegion { font-family: georgia, 'times new roman', times; background-color: #F2DEB6 }
+.UserCaption { font-family: georgia, 'times new roman', times; background-color: #F2DEB6 }
+.UserConfiguration { font-family: georgia, 'times new roman', times; background-color: #F2DEB6 }
+.UserButton, .UserInput, .UserSelect { font-family: georgia, 'times new roman', times; color: #000000 }
+.UserNotification { font-family: georgia, 'times new roman', times; color: #BBBBBB; padding: 4px }
+.UserToolBarTextArea { font-weight: normal; font-family: georgia, 'times new roman', times; 
+               padding-bottom: 5px }
+.UserToolbarTextArea a:link { color: #CC9933; text-decoration: none }
+.UserToolbarTextArea a:visited { color: #CC9933; text-decoration: none }
+.UserToolbarTextArea a:hover { color: #666699; text-decoration: underline }
+.UserToolbarDisabledLink { color: #006633; font-family: georgia, 'times new roman', times; padding: 4px }
+.UserToolbarImage { cursor: hand; background-color: #BBBBBB; text-align: center; border-style: 
+               none; border-width: medium }
+.UserToolBarImageArea { font-weight: normal; font-family: georgia, 'times new roman', times; 
+               padding-bottom: 5px }
+.UserToolbarSelectedImage { font-weight: bold; vertical-align: top; text-align: center; 
+               border-left-style: none; border-left-width: medium; 
+               border-right-style: none; border-right-width: medium; 
+               border-top-style: none; border-top-width: medium; 
+               border-bottom: 1px solid #000000 }
+.UserGenericHeader { font-weight: bold; color: #000000; font-family: 
+               georgia, 'times new roman', times }
+.UserGeneric { padding-left: 5px; padding-right: 5px; padding-top: 8px; padding-bottom: 7px }
+.UserGenericText { color: #000000 }
+.UserGenericBody { padding-left: 17px; padding-right: 0px; padding-top: 5px; padding-bottom: 0px }
+.UserSectionTitle { font-weight: bold; width: 100%; color: #000000; 
+               border-bottom: 1px solid #C8A868; margin-bottom: 5px; 
+               padding-bottom: 2px }
+.UserSectionHead { width: 100%; color: #000000; padding-left: 0px; padding-right: 0px; 
+               padding-top: 0px; padding-bottom: 3px }
+.UserSectionFooter { color: #000000; border-top: 1px solid #C8A868 }
+.UserSectionBody { width: 100%; padding-left: 7px; padding-right: 0px; padding-top: 0px; 
+               padding-bottom: 0px }
+.UserControlGroup { padding-top: 2px; padding-bottom: 10px }
+.UserFooter  { width: 100%; padding-left: 7px; padding-right: 7px; padding-top: 10px; 
+               padding-bottom: 7px }
+.UserCommandArea { padding-top: 7px }
+.UserCellSelected { font-family: georgia, 'times new roman', times; background-color: #FFFFFF; 
+               color: #000000; border: 1px solid #FFFFFF; padding-left: 4px; 
+               padding-right: 4px; padding-top: 1px; padding-bottom: 2px }
+.UserCell    { font-family: georgia, 'times new roman', times; color: #000000; padding-left: 
+               5px; padding-right: 5px; padding-top: 2px; padding-bottom: 3px }
+.UserGenericBulletItem { padding-bottom: 2px }
+.ms-ToolPaneFrame { background-color: #F2DEB6; padding: 0px }
+.ms-ToolPaneBody { padding-top: 2px; padding-bottom: 2px }
+.ms-ToolPaneHeader { background-color: #C8A868; border-style: none }
+.ms-ToolPaneBorder { border-left: 1px solid #F2DEB6; border-right: 1px solid #F2DEB6; 
+               border-top-style: none; border-top-width: medium; 
+               border-bottom-style: none; border-bottom-width: medium }
+.ms-ToolPaneClose { background-color: #C8A868 }
+.ms-ToolPaneTitle { color: #000000; font-weight: bold; font-family: 
+               georgia, 'times new roman', times; background-color: #C8A868; 
+               padding-top: 3px; padding-bottom: 3px }
+.ms-ToolPaneFooter { background-color: #C8A868; font-family: georgia, 'times new roman', times; 
+               color: #000000; padding: 5px }
+.ms-ToolPaneError { color: #db6751; font-family: georgia, 'times new roman', times; padding: 2px }
+.ms-ToolPaneInfo { color: #000000; font-family: georgia, 'times new roman', times; 
+               background-color: #F2DEB6; padding-left: 5px; padding-right: 
+               5px; padding-top: 5px; padding-bottom: 0px }
+.ms-ToolPartSpacing { padding-top: 8px }
+.ms-TPBorder { border-style: none; border-width: medium }
+.ms-TPHeader { background-color: #006633 }
+.ms-TPTitle  { color: #000000; font-weight: bold; font-family: 
+               georgia, 'times new roman', times; padding-top: 2px; 
+               padding-bottom: 2px }
+.ms-TPBody   { color: #000000; font-family: georgia, 'times new roman', times }
+.ms-TPBody a:link, .ms-TPBody a:visited, .ms-TPBody a:hover { color: #CC9933; text-decoration: none; cursor: hand }
+.ms-TPCommands {  }
+.ms-TPInput  { color: #FFFFFF; font-family: georgia, 'times new roman', times }
+.ms-CategoryTitle { font-family: georgia, 'times new roman', times; font-weight: bold; 
+               text-decoration: none }
+.ms-PropGridBuilderButton { width: 16px; display: none; background-color: #C8A868; 
+               border: 1px solid #CC9933 }
+.ms-SPZone   { border: 1px solid #333333; padding: 5px }
+.ms-SPZoneSelected { border: 1px solid #666699; padding: 5px }
+.ms-SPZoneIBar { border: 3px solid #666699 }
+.ms-SPZoneLabel { color: #333333; font-family: georgia, 'times new roman', times; padding: 0 }
+.ms-SPError  { color: #DB6751; font-family: georgia, 'times new roman', times; 
+               border-bottom: 2px solid #F2DEB6; padding: 2px }
+.ms-SPZoneCaption { color: #333333; font-family: georgia, 'times new roman', times }
+.ms-WPDesign { background-color: #F2DEB6 }
+.ms-WPMenu   { background-color: #F2DEB6 }
+.ms-WPTitle  { font-weight: bold; font-family: georgia, 'times new roman', times; color: 
+               #006633; padding-top: 2px; padding-bottom: 2px }
+.ms-WPTitle a:link, .ms-WPTitle a:visited { color: #006633; text-decoration: none; cursor: hand }
+.ms-WPTitle a:hover { color: #CC9933; text-decoration: underline; cursor: hand }
+.ms-WPSelected { border: 3px dashed #00AA55 }
+.ms-WPBody   { font-family: georgia, 'times new roman', times }
+.ms-WPBody table, .ms-TPBody table {  }
+.ms-WPBody a:link, .ms-WPBody a:visited { color: #CC9933; text-decoration: none }
+.ms-WPBody a:hover { color: #666699; text-decoration: underline }
+.ms-WPBody th, .ms-TPBody th { font-weight: bold }
+.ms-WPBody td { font-family: georgia, 'times new roman', times }
+.ms-WPBody h1, .ms-TPBody h1 { font-weight: bold }
+.ms-WPBody h2, .ms-TPBody h2 { font-weight: bold }
+.ms-WPBody h3, .ms-TPBody h3 { font-weight: bold }
+.ms-WPBody h4, .ms-TPBody h4 { font-weight: bold }
+.ms-WPBody h5, .ms-TPBody h5 { font-weight: bold }
+.ms-WPBody h6, .ms-TPBody h6 { font-weight: bold }
+.ms-WPBorder { border-left: 1px solid #006633; border-right: 1px solid #006633; 
+               border-top-style: none; border-bottom: 1px solid #006633 }
+.ms-HoverCellActive { background-color: #C8A868; border: 1px solid #775a1e }
+.ms-HoverCellActiveDark { background-color: #F2DEB6; border: 1px solid #006633 }
+.ms-SPLink   { font-family: georgia, 'times new roman', times; color: #775a1e }
+.ms-SPLink a:link, .ms-SPLink a:visited { color: #CC9933; text-decoration: none }
+.ms-SPButton { font-family: georgia, 'times new roman', times }
+.ms-PartSpacingVertical, .ms-PartSpacingHorizontal { padding-top: 10px }
+.ms-WPHeader { background-color: #F2DEB6; background-image: url('blank.gif'); 
+               background-repeat: repeat-x }
+.ms-PageHeaderDate { color: #000000; font-family: georgia, 'times new roman', times }
+.ms-PageHeaderGreeting { color: #000000; font-family: georgia, 'times new roman', times }
+.ms-rtApplyBackground { background-color: #333333; border: 0.02cm solid #CC9933 }
+.ms-rtRemoveBackground { background-color: transparent; border: 0.02cm solid #FFFFFF }
+.ms-rtToolbarDefaultStyle { font-style: normal; font-variant: normal; font-weight: normal; font-size: 8pt; 
+               font-family: georgia, 'times new roman', times }
+.ms-subsmanageheader { background-color: #F2DEB6; font-family: georgia, 'times new roman', times; 
+               text-decoration: none; font-weight: bold; vertical-align: top }
+.ms-subsmanagecell { color: #000000; font-family: georgia, 'times new roman', times; height: 18px; 
+               vertical-align: top }
+.ms-ConnError { color: #db6751 }
+.ms-storMeUsed { background-color: #009933 }
+.ms-storMeFree { background-color: #996633 }
+.ms-storMeEstimated { background-color: #666699 }
+.ms-underline { vertical-align: top; border-bottom: 1px solid #CC9933; padding-left: 4; 
+               padding-right: 4; padding-top: 2; padding-bottom: 4 }
+.ms-underlineback { vertical-align: top; background-color: #F2DEB6; 
+               border-bottom: 1px solid #CC9933; padding-left: 4; 
+               padding-right: 4; padding-top: 2; padding-bottom: 4 }
+.ms-smallheader { font-weight: bold; color: #000000; font-family: 
+               georgia, 'times new roman', times }
+.ms-smallsectionline { border-bottom: 1px solid #CC9933; padding-left: 0; padding-right: 0; 
+               padding-top: 2; padding-bottom: 0 }
+.ms-tabselected { font-family: georgia, 'times new roman', times; background-color: #006633; 
+               font-weight: bold; color: #CC9933; border: 2px solid #006633; 
+               padding-left: 10px; padding-right: 10px; padding-top: 3px; 
+               padding-bottom: 3px }
+.ms-tabinactive { font-family: georgia, 'times new roman', times; background-color: #F2DEB6; 
+               color: #CC9933; border: 2px solid #F2DEB6; padding-left: 10px; 
+               padding-right: 10px; padding-top: 3px; padding-bottom: 3px }
+.ms-tabinactive a:link, .ms-tabinactive a:hover, .ms-tabinactive a:visited { color: #CC9933; text-decoration: none }
+.ms-surveyVBarT { font-size: 7pt; font-family: verdana; text-align: center; color: #BBBBBB }
+.ms-surveyGVVBar { width: 9px; background-color: #996600; border-top: 0px solid #996600; 
+               border-bottom: 0px solid #CC9933 }
+.ms-surveyGVVBarS { width: 20px }
+.ms-uploadborder { border: 1px solid #006633 }
+.ms-uploadcontrol { background-color: #006633 }
+.ms-highlight { background-color: #006633 }
+.UserBackground { background-color: #FFFFFF }
+.ms-MWSSelectedInstance { color: #000000; text-decoration: none }
+.ms-MWSInstantiated a:link, .ms-MWSInstantiated a:visited { color: #CC9933; text-decoration: none }
+.ms-MWSInstantiated a:hover { color: #666699; text-decoration: underline }
+.ms-MWSUninstantiated a:link, .ms-MWSUninstantiated a:visited { color: #CC9933; text-decoration: none }
+.ms-MWSUninstantiated a:hover { color: #CC9933; text-decoration: underline }
+.ms-ToolStrip { color: #006633; background-color: #F2DEB6; border: 1px solid #333333 }
