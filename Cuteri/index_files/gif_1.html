@@ -1,0 +1,163 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="stylesheet" type="text/css" href="visio.css"/>
+<title>
+Cuteri Family Tree
+</title>
+<script type="text/javascript" language="javascript">
+function UpdateTooltip(){};
+function OnShapeClick(){};
+</script>
+
+<script src="gif_1.js" type="text/jscript" language="jscript"></script>
+
+<script type="text/jscript" language="jscript">
+	if(parent.isUpLevel)
+	{
+		location.replace(parent.g_FileList[parent.g_CurPageIndex].PriImage);
+	}
+</script>
+
+
+
+<script type="text/jscript" language="jscript">
+
+var pageID = 0;
+
+var isUpLevel = parent.isUpLevel;
+var OnShapeClick = null;
+if (!parent.isMac)
+{
+	OnShapeClick = parent.OnShapeClick;
+}
+
+var OnShapeKey = parent.OnShapeKey;
+var UpdateTooltip = parent.UpdateTooltip;
+var clickMenu = parent.clickMenu;
+var toggleMenuDiv = parent.toggleMenuDiv;
+var toggleMenuLink = parent.toggleMenuLink;
+var GoToPage = parent.GoToPage;
+
+
+if (parent.isUpLevel)
+{
+
+	if (parent.g_FirstPageToLoad != null && parent.g_FirstPageToLoad.length > 0)
+	{
+		if (parent.g_FileList[parent.g_CurPageIndex].PageID != pageID)
+		{
+			var fileEntry = parent.g_FileList[parent.g_CurPageIndex];
+			var fileToLoad = fileToLoad = fileEntry.PriImage;
+			if (fileEntry.SecImage.length > 0)
+			{
+				fileToLoad = fileEntry.SecImage;
+			}
+
+			location.replace(fileToLoad);
+		}
+
+		parent.g_FirstPageToLoad = null;
+	}
+
+
+	var viewMgr = new parent.CViewMgr();
+	parent.viewMgr = viewMgr;
+
+	viewMgr.SupportsDetails = true;
+	viewMgr.SupportsSearch = true;
+
+	viewMgr.put_Location = ViewMgrSetRasterLocation;
+	viewMgr.visBBoxLeft = 1.745000;
+	viewMgr.visBBoxRight = 10.380000;
+	viewMgr.visBBoxBottom = 0.245000;
+	viewMgr.visBBoxTop = 7.755000;
+	viewMgr.highlightDiv = null;
+}
+
+function load ()
+{
+	if(isUpLevel)
+	{
+		arrowdiv.innerHTML = '<img id="arrowgif" alt="Shows the location of the selected shape" src="arrow.gif"/>';
+
+		var pageIndex = parent.PageIndexFromID (pageID);
+		parent.CurPageUpdate (pageIndex);
+	}
+}
+
+function unload()
+{
+	if(isUpLevel)
+	{
+		viewMgr = null;
+		parent.viewMgr = null;
+	}
+}
+
+window.onload = load;
+window.onunload = unload;
+document.onclick = clickMenu;
+
+</script>
+</head>
+
+<body class="pageView" bgcolor="#FFFFFF">
+
+<div id=arrowdiv style="position:absolute;top:0;left:0;visibility:hidden;z-index:5">
+</div>
+
+<div id="menu1" onclick="clickMenu()" class="hlMenu">
+</div>
+
+<DIV id=RasterDiv>
+
+
+<center>
+  <IMG id="ConvertedImage" SRC="gif_1.gif" ALT="Page-1" name=RasterImage BORDER="0" USEMAP="#visImageMap" width="691" height="601">
+</center>
+
+<MAP NAME="visImageMap">
+  <AREA shape="POLYGON" tabindex="1" ALT="Edward Ercegovic June 23, 2008" origTitle="Edward Ercegovic June 23, 2008" TITLE="Edward Ercegovic June 23, 2008"  target="_top" COORDS=" 611,601 691,601 691,561 611,561 611,601" onmouseover="UpdateTooltip(this,0,198)" onfocus="UpdateTooltip(this,0,198)" onclick="return OnShapeClick(0,198);" onkeyup="OnShapeKey(0,198);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Caroline Ercegovic April 25, 2007" origTitle="Caroline Ercegovic April 25, 2007" TITLE="Caroline Ercegovic April 25, 2007"  target="_top" COORDS=" 611,543 691,543 691,503 611,503 611,543" onmouseover="UpdateTooltip(this,0,190)" onfocus="UpdateTooltip(this,0,190)" onclick="return OnShapeClick(0,190);" onkeyup="OnShapeKey(0,190);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Edward Ercegovic June 22,1964 Debra (Ruth) Ercegovic Jan, 6,..." origTitle="Edward Ercegovic June 22,1964 Debra (Ruth) Ercegovic Jan, 6,..." TITLE="Edward Ercegovic June 22,1964 Debra (Ruth) Ercegovic Jan, 6,..."  target="_top" COORDS=" 485,455 481,455 481,521 561,521 561,455 556,455 556,454 485,454 485,455" onmouseover="UpdateTooltip(this,0,185)" onfocus="UpdateTooltip(this,0,185)" onclick="return OnShapeClick(0,185);" onkeyup="OnShapeKey(0,185);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Stephanie Ercegovic May 4, 1960 Brian Foster Nov, xx, 195x" origTitle="Stephanie Ercegovic May 4, 1960 Brian Foster Nov, xx, 195x" TITLE="Stephanie Ercegovic May 4, 1960 Brian Foster Nov, xx, 195x"  target="_top" COORDS=" 481,431 561,431 561,361 481,361 481,431" onmouseover="UpdateTooltip(this,0,155)" onfocus="UpdateTooltip(this,0,155)" onclick="return OnShapeClick(0,155);" onkeyup="OnShapeKey(0,155);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Josephine Eercegovic  1929 Edward Ercegovic Jan 19,1929" origTitle="Josephine Eercegovic  1929 Edward Ercegovic Jan 19,1929" TITLE="Josephine Eercegovic  1929 Edward Ercegovic Jan 19,1929"  target="_top" COORDS=" 371,401 451,401 451,341 371,341 371,401" onmouseover="UpdateTooltip(this,0,174)" onfocus="UpdateTooltip(this,0,174)" onclick="return OnShapeClick(0,174);" onkeyup="OnShapeKey(0,174);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Rose Pallotta" origTitle="Rose Pallotta" TITLE="Rose Pallotta"  target="_top" COORDS=" 371,331 451,331 451,290 371,290 371,331" onmouseover="UpdateTooltip(this,0,168)" onfocus="UpdateTooltip(this,0,168)" onclick="return OnShapeClick(0,168);" onkeyup="OnShapeKey(0,168);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Mary Copeland" origTitle="Mary Copeland" TITLE="Mary Copeland"  target="_top" COORDS=" 371,280 451,280 451,240 371,240 371,280" onmouseover="UpdateTooltip(this,0,162)" onfocus="UpdateTooltip(this,0,162)" onclick="return OnShapeClick(0,162);" onkeyup="OnShapeKey(0,162);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Fred Cuteri" origTitle="Fred Cuteri" TITLE="Fred Cuteri"  target="_top" COORDS=" 371,230 451,230 451,190 371,190 371,230" onmouseover="UpdateTooltip(this,0,156)" onfocus="UpdateTooltip(this,0,156)" onclick="return OnShapeClick(0,156);" onkeyup="OnShapeKey(0,156);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Victoria Scarmazzi" origTitle="Victoria Scarmazzi" TITLE="Victoria Scarmazzi"  target="_top" COORDS=" 371,451 451,451 451,411 371,411 371,451" onmouseover="UpdateTooltip(this,0,150)" onfocus="UpdateTooltip(this,0,150)" onclick="return OnShapeClick(0,150);" onkeyup="OnShapeKey(0,150);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Rosa" origTitle="Rosa" TITLE="Rosa"  target="_top" COORDS=" 140,481 220,481 220,441 140,441 140,481" onmouseover="UpdateTooltip(this,0,144)" onfocus="UpdateTooltip(this,0,144)" onclick="return OnShapeClick(0,144);" onkeyup="OnShapeKey(0,144);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Stella" origTitle="Stella" TITLE="Stella"  target="_top" COORDS=" 140,431 220,431 220,391 140,391 140,431" onmouseover="UpdateTooltip(this,0,138)" onfocus="UpdateTooltip(this,0,138)" onclick="return OnShapeClick(0,138);" onkeyup="OnShapeKey(0,138);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Vittoria" origTitle="Vittoria" TITLE="Vittoria"  target="_top" COORDS=" 140,381 220,381 220,341 140,341 140,381" onmouseover="UpdateTooltip(this,0,132)" onfocus="UpdateTooltip(this,0,132)" onclick="return OnShapeClick(0,132);" onkeyup="OnShapeKey(0,132);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Giuseppi Cuteri" origTitle="Giuseppi Cuteri" TITLE="Giuseppi Cuteri"  target="_top" COORDS=" 140,331 220,331 220,290 140,290 140,331" onmouseover="UpdateTooltip(this,0,126)" onfocus="UpdateTooltip(this,0,126)" onclick="return OnShapeClick(0,126);" onkeyup="OnShapeKey(0,126);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Nicola Cuteri" origTitle="Nicola Cuteri" TITLE="Nicola Cuteri"  target="_top" COORDS=" 140,280 220,280 220,240 140,240 140,280" onmouseover="UpdateTooltip(this,0,120)" onfocus="UpdateTooltip(this,0,120)" onclick="return OnShapeClick(0,120);" onkeyup="OnShapeKey(0,120);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Bruno Cuteri" origTitle="Bruno Cuteri" TITLE="Bruno Cuteri"  target="_top" COORDS=" 140,230 220,230 220,190 140,190 140,230" onmouseover="UpdateTooltip(this,0,66)" onfocus="UpdateTooltip(this,0,66)" onclick="return OnShapeClick(0,66);" onkeyup="OnShapeKey(0,66);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Ferdinando Cuteri" origTitle="Ferdinando Cuteri" TITLE="Ferdinando Cuteri"  target="_top" COORDS=" 140,180 220,180 220,140 140,140 140,180" onmouseover="UpdateTooltip(this,0,60)" onfocus="UpdateTooltip(this,0,60)" onclick="return OnShapeClick(0,60);" onkeyup="OnShapeKey(0,60);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Benardo Cuteri" origTitle="Benardo Cuteri" TITLE="Benardo Cuteri"  target="_top" COORDS=" 0,431 80,431 80,391 0,391 0,431" onmouseover="UpdateTooltip(this,0,54)" onfocus="UpdateTooltip(this,0,54)" onclick="return OnShapeClick(0,54);" onkeyup="OnShapeKey(0,54);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Vitioria" origTitle="Vitioria" TITLE="Vitioria"  target="_top" COORDS=" 0,381 80,381 80,341 0,341 0,381" onmouseover="UpdateTooltip(this,0,48)" onfocus="UpdateTooltip(this,0,48)" onclick="return OnShapeClick(0,48);" onkeyup="OnShapeKey(0,48);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Miglia" origTitle="Miglia" TITLE="Miglia"  target="_top" COORDS=" 0,331 80,331 80,290 0,290 0,331" onmouseover="UpdateTooltip(this,0,42)" onfocus="UpdateTooltip(this,0,42)" onclick="return OnShapeClick(0,42);" onkeyup="OnShapeKey(0,42);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Savina" origTitle="Savina" TITLE="Savina"  target="_top" COORDS=" 0,280 80,280 80,240 0,240 0,280" onmouseover="UpdateTooltip(this,0,36)" onfocus="UpdateTooltip(this,0,36)" onclick="return OnShapeClick(0,36);" onkeyup="OnShapeKey(0,36);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Ribecca" origTitle="Ribecca" TITLE="Ribecca"  target="_top" COORDS=" 0,230 80,230 80,190 0,190 0,230" onmouseover="UpdateTooltip(this,0,30)" onfocus="UpdateTooltip(this,0,30)" onclick="return OnShapeClick(0,30);" onkeyup="OnShapeKey(0,30);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Fredinando Cuteri" origTitle="Fredinando Cuteri" TITLE="Fredinando Cuteri"  target="_top" COORDS=" 0,180 80,180 80,140 0,140 0,180" onmouseover="UpdateTooltip(this,0,24)" onfocus="UpdateTooltip(this,0,24)" onclick="return OnShapeClick(0,24);" onkeyup="OnShapeKey(0,24);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Benardo Cuteri 1914" origTitle="Benardo Cuteri 1914" TITLE="Benardo Cuteri 1914"  target="_top" COORDS=" 240,531 320,531 320,491 240,491 240,531" onmouseover="UpdateTooltip(this,0,114)" onfocus="UpdateTooltip(this,0,114)" onclick="return OnShapeClick(0,114);" onkeyup="OnShapeKey(0,114);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Francesco Cuteri 1911" origTitle="Francesco Cuteri 1911" TITLE="Francesco Cuteri 1911"  target="_top" COORDS=" 240,481 320,481 320,441 240,441 240,481" onmouseover="UpdateTooltip(this,0,108)" onfocus="UpdateTooltip(this,0,108)" onclick="return OnShapeClick(0,108);" onkeyup="OnShapeKey(0,108);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Ilario Cuteri 1901" origTitle="Ilario Cuteri 1901" TITLE="Ilario Cuteri 1901"  target="_top" COORDS=" 240,431 320,431 320,391 240,391 240,431" onmouseover="UpdateTooltip(this,0,102)" onfocus="UpdateTooltip(this,0,102)" onclick="return OnShapeClick(0,102);" onkeyup="OnShapeKey(0,102);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Domemico Cuteri" origTitle="Domemico Cuteri" TITLE="Domemico Cuteri"  target="_top" COORDS=" 240,381 320,381 320,341 240,341 240,381" onmouseover="UpdateTooltip(this,0,96)" onfocus="UpdateTooltip(this,0,96)" onclick="return OnShapeClick(0,96);" onkeyup="OnShapeKey(0,96);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Vencenzo Cuteri" origTitle="Vencenzo Cuteri" TITLE="Vencenzo Cuteri"  target="_top" COORDS=" 240,331 320,331 320,290 240,290 240,331" onmouseover="UpdateTooltip(this,0,90)" onfocus="UpdateTooltip(this,0,90)" onclick="return OnShapeClick(0,90);" onkeyup="OnShapeKey(0,90);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Vittora" origTitle="Vittora" TITLE="Vittora"  target="_top" COORDS=" 240,280 320,280 320,240 240,240 240,280" onmouseover="UpdateTooltip(this,0,84)" onfocus="UpdateTooltip(this,0,84)" onclick="return OnShapeClick(0,84);" onkeyup="OnShapeKey(0,84);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Nicola Cuteri" origTitle="Nicola Cuteri" TITLE="Nicola Cuteri"  target="_top" COORDS=" 240,230 320,230 320,190 240,190 240,230" onmouseover="UpdateTooltip(this,0,78)" onfocus="UpdateTooltip(this,0,78)" onclick="return OnShapeClick(0,78);" onkeyup="OnShapeKey(0,78);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Giuseppi Cuteri" origTitle="Giuseppi Cuteri" TITLE="Giuseppi Cuteri"  target="_top" COORDS=" 240,180 320,180 320,140 240,140 240,180" onmouseover="UpdateTooltip(this,0,72)" onfocus="UpdateTooltip(this,0,72)" onclick="return OnShapeClick(0,72);" onkeyup="OnShapeKey(0,72);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Giuseppe Cuteri" origTitle="Giuseppe Cuteri" TITLE="Giuseppe Cuteri"  target="_top" COORDS=" 220,120 300,120 300,80 220,80 220,120" onmouseover="UpdateTooltip(this,0,18)" onfocus="UpdateTooltip(this,0,18)" onclick="return OnShapeClick(0,18);" onkeyup="OnShapeKey(0,18);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Ferdinando Cuteri" origTitle="Ferdinando Cuteri" TITLE="Ferdinando Cuteri"  target="_top" COORDS=" 120,120 200,120 200,80 120,80 120,120" onmouseover="UpdateTooltip(this,0,12)" onfocus="UpdateTooltip(this,0,12)" onclick="return OnShapeClick(0,12);" onkeyup="OnShapeKey(0,12);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Francesco Cuteri" origTitle="Francesco Cuteri" TITLE="Francesco Cuteri"  target="_top" COORDS=" 20,120 100,120 100,80 20,80 20,120" onmouseover="UpdateTooltip(this,0,6)" onfocus="UpdateTooltip(this,0,6)" onclick="return OnShapeClick(0,6);" onkeyup="OnShapeKey(0,6);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Nicola Cuteri" origTitle="Nicola Cuteri" TITLE="Nicola Cuteri"  target="_top" COORDS=" 102,58 218,58 218,2 102,2 102,58" onmouseover="UpdateTooltip(this,0,1)" onfocus="UpdateTooltip(this,0,1)" onclick="return OnShapeClick(0,1);" onkeyup="OnShapeKey(0,1);">
+</MAP>
+
+
+
+</DIV>
+
+</body>
+</html>
+

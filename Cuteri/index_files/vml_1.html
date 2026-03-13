@@ -1,0 +1,241 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml" 
+ xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5"/>
+<link rel="stylesheet" type="text/css" href="visio.css"/>
+<title>Cuteri Family Tree</title>
+<style type="text/css">
+	 v\:* { behavior: url(#default#VML); }
+</style>
+
+<script src="vml_1.js" type="text/jscript" language="jscript"></script>
+
+<script type="text/jscript" language="jscript">
+
+	var pageID = 0;
+	var viewMgr = null;
+
+	if (parent.g_FirstPageToLoad != null && parent.g_FirstPageToLoad.length > 0)
+	{
+		if (parent.g_FileList[parent.g_CurPageIndex].PageID != pageID)
+		{
+			location.replace(parent.g_FileList[parent.g_CurPageIndex].PriImage);
+		}
+
+		parent.g_FirstPageToLoad = null;
+	}
+
+	function getPNZ()
+	{
+		var rawHTML = VMLDiv.innerHTML;
+		var strReturn = ""
+		
+		strReturn = rawHTML.slice( rawHTML.indexOf( '<v:group' ), rawHTML.indexOf( "</v:shape>" ) );
+		strReturn += "</v:shape></v:group>\n";
+				
+		return strReturn;
+	}
+	
+	function load()
+	{
+		viewMgr = new parent.CViewMgr("ConvertedImage", "arrowDiv");
+
+		viewMgr.put_Location = ViewMgrSetVMLLocation;
+
+
+		viewMgr.visBBoxLeft = 1.745000;
+		viewMgr.visBBoxRight = 10.380000;
+		viewMgr.visBBoxBottom = 0.245000;
+		viewMgr.visBBoxTop = 7.755000;
+
+		viewMgr.Zoom = VMLZoomChange;
+		viewMgr.setView= VMLSetView;
+
+		viewMgr.SupportsDetails = true;
+		viewMgr.SupportsSearch = true;
+
+		parent.viewMgr = viewMgr;
+
+		fit();
+	}
+
+	function unload()
+	{
+		viewMgr = null;
+		parent.viewMgr = null;
+	}
+
+	function fit()
+	{
+		if(parent.frmToolbar)
+		{
+			if (parent.g_WidgetsLoaded)
+			{
+				var zoom100 = parent.frmToolbar.document.all('a100');
+				if (zoom100)
+				{
+					parent.viewMgr.PostZoomProcessing = PostZoomProcessing;
+					zoom100.click();
+				}
+				else
+				{
+					parent.viewMgr.PostZoomProcessing = PostZoomProcessing;
+					viewMgr.Zoom(100);
+				}
+			}
+			else
+			{
+				window.setTimeout("fit()", 500);
+			}
+		}	
+		else
+		{
+			parent.viewMgr.PostZoomProcessing = PostZoomProcessing;
+			viewMgr.Zoom(100);
+		}
+	}
+
+	function PostZoomProcessing (newZoomLevel)
+	{
+		parent.viewMgr.PostZoomProcessing = null;
+		var pageIndex = parent.PageIndexFromID (pageID);
+		parent.viewMgr.getPNZ = getPNZ;
+		parent.CurPageUpdate (pageIndex);
+	}
+
+
+	
+	var isUpLevel = parent.isUpLevel;
+	var OnShapeClick = parent.OnShapeClick;
+	var OnShapeKey = parent.OnShapeKey;
+	var UpdateTooltip = parent.UpdateTooltip;
+	var clickMenu = parent.clickMenu;
+	var toggleMenuDiv = parent.toggleMenuDiv;
+	var toggleMenuLink = parent.toggleMenuLink;
+	var GoToPage = parent.GoToPage;
+
+	window.onload = load;
+	window.onunload = unload;
+	document.onclick = clickMenu;
+
+
+
+
+</script>
+
+</head>
+
+<body style="MARGIN:10px" onresize="VMLOnResize();" onscroll="VMLOnScroll();">
+
+<div id="arrowdiv" style="position:absolute;top:0;left:0;visibility:hidden;z-index:5">
+<img id="arrowgif" alt="Shows the location of the selected shape" src="arrow.gif" width="33" height="40"/>
+</div>
+
+<div id="menu1" onclick="clickMenu()" class="hlMenu">
+</div>
+
+
+
+
+<div id="VMLDiv" >
+
+
+<v:group  id="ConvertedImage" style="width:4.599201in;height:4.000000in;position:absolute;visibility=hidden;" coordSize="2300,2000" coordOrigin="-1000,-1000" >
+
+<v:shapetype 
+  id="VISSHAPE"
+  target="_parent"
+  coordsize="2300,2000"
+  coordorigin="-1000,-1000"
+  stroked="f"
+  strokecolor="red"
+  filled="t"
+>
+<v:fill opacity="0.0"/>
+</v:shapetype>
+
+
+<v:shape style="top:-1000.0;left:-1000.0;width:2299.6;height:2000.0;position:absolute" coordSize="2300,2000" coordOrigin="-1000,-1000" >
+<v:imagedata src="vml_1.emz"/>
+</v:shape>
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Nicola Cuteri" origTitle="Nicola Cuteri"  style="top:-1000;left:-1000;width:2300;height:2000;position:absolute" path=" m -656,-802 l -271,-802 l -271,-988 l -656,-988 l -656,-802xe" onmouseover="UpdateTooltip(this,0,1)" onclick="OnShapeClick(0,1)" onfocus="UpdateTooltip(this,0,1);" onkeyup="OnShapeKey(0,1)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Francesco Cuteri" origTitle="Francesco Cuteri"  style="top:-1000;left:-1000;width:2300;height:2000;position:absolute" path=" m -928,-597 l -663,-597 l -663,-729 l -928,-729 l -928,-597xe" onmouseover="UpdateTooltip(this,0,6)" onclick="OnShapeClick(0,6)" onfocus="UpdateTooltip(this,0,6);" onkeyup="OnShapeKey(0,6)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Ferdinando Cuteri" origTitle="Ferdinando Cuteri"  style="top:-1000;left:-1000;width:2300;height:2000;position:absolute" path=" m -597,-597 l -331,-597 l -331,-729 l -597,-729 l -597,-597xe" onmouseover="UpdateTooltip(this,0,12)" onclick="OnShapeClick(0,12)" onfocus="UpdateTooltip(this,0,12);" onkeyup="OnShapeKey(0,12)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Giuseppe Cuteri" origTitle="Giuseppe Cuteri"  style="top:-1000;left:-1000;width:2300;height:2000;position:absolute" path=" m -265,-597 l 1,-597 l 1,-729 l -265,-729 l -265,-597xe" onmouseover="UpdateTooltip(this,0,18)" onclick="OnShapeClick(0,18)" onfocus="UpdateTooltip(this,0,18);" onkeyup="OnShapeKey(0,18)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Giuseppi Cuteri" origTitle="Giuseppi Cuteri"  style="top:-1000;left:-1000;width:2300;height:2000;position:absolute" path=" m -198,-398 l 67,-398 l 67,-530 l -198,-530 l -198,-398xe" onmouseover="UpdateTooltip(this,0,72)" onclick="OnShapeClick(0,72)" onfocus="UpdateTooltip(this,0,72);" onkeyup="OnShapeKey(0,72)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Nicola Cuteri" origTitle="Nicola Cuteri"  style="top:-1000;left:-1000;width:2300;height:2000;position:absolute" path=" m -198,-232 l 67,-232 l 67,-365 l -198,-365 l -198,-232xe" onmouseover="UpdateTooltip(this,0,78)" onclick="OnShapeClick(0,78)" onfocus="UpdateTooltip(this,0,78);" onkeyup="OnShapeKey(0,78)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Vittora" origTitle="Vittora"  style="top:-1000;left:-1000;width:2300;height:2000;position:absolute" path=" m -198,-66 l 67,-66 l 67,-199 l -198,-199 l -198,-66xe" onmouseover="UpdateTooltip(this,0,84)" onclick="OnShapeClick(0,84)" onfocus="UpdateTooltip(this,0,84);" onkeyup="OnShapeKey(0,84)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Vencenzo Cuteri" origTitle="Vencenzo Cuteri"  style="top:-1000;left:-1000;width:2300;height:2000;position:absolute" path=" m -198,99 l 67,99 l 67,-33 l -198,-33 l -198,99xe" onmouseover="UpdateTooltip(this,0,90)" onclick="OnShapeClick(0,90)" onfocus="UpdateTooltip(this,0,90);" onkeyup="OnShapeKey(0,90)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Domemico Cuteri" origTitle="Domemico Cuteri"  style="top:-1000;left:-1000;width:2300;height:2000;position:absolute" path=" m -198,265 l 67,265 l 67,133 l -198,133 l -198,265xe" onmouseover="UpdateTooltip(this,0,96)" onclick="OnShapeClick(0,96)" onfocus="UpdateTooltip(this,0,96);" onkeyup="OnShapeKey(0,96)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Ilario Cuteri 1901" origTitle="Ilario Cuteri 1901"  style="top:-1000;left:-1000;width:2300;height:2000;position:absolute" path=" m -198,431 l 67,431 l 67,298 l -198,298 l -198,431xe" onmouseover="UpdateTooltip(this,0,102)" onclick="OnShapeClick(0,102)" onfocus="UpdateTooltip(this,0,102);" onkeyup="OnShapeKey(0,102)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Francesco Cuteri 1911" origTitle="Francesco Cuteri 1911"  style="top:-1000;left:-1000;width:2300;height:2000;position:absolute" path=" m -198,597 l 67,597 l 67,464 l -198,464 l -198,597xe" onmouseover="UpdateTooltip(this,0,108)" onclick="OnShapeClick(0,108)" onfocus="UpdateTooltip(this,0,108);" onkeyup="OnShapeKey(0,108)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Benardo Cuteri 1914" origTitle="Benardo Cuteri 1914"  style="top:-1000;left:-1000;width:2300;height:2000;position:absolute" path=" m -198,762 l 67,762 l 67,630 l -198,630 l -198,762xe" onmouseover="UpdateTooltip(this,0,114)" onclick="OnShapeClick(0,114)" onfocus="UpdateTooltip(this,0,114);" onkeyup="OnShapeKey(0,114)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Fredinando Cuteri" origTitle="Fredinando Cuteri"  style="top:-1000;left:-1000;width:2300;height:2000;position:absolute" path=" m -995,-398 l -729,-398 l -729,-530 l -995,-530 l -995,-398xe" onmouseover="UpdateTooltip(this,0,24)" onclick="OnShapeClick(0,24)" onfocus="UpdateTooltip(this,0,24);" onkeyup="OnShapeKey(0,24)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Ribecca" origTitle="Ribecca"  style="top:-1000;left:-1000;width:2300;height:2000;position:absolute" path=" m -995,-232 l -729,-232 l -729,-365 l -995,-365 l -995,-232xe" onmouseover="UpdateTooltip(this,0,30)" onclick="OnShapeClick(0,30)" onfocus="UpdateTooltip(this,0,30);" onkeyup="OnShapeKey(0,30)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Savina" origTitle="Savina"  style="top:-1000;left:-1000;width:2300;height:2000;position:absolute" path=" m -995,-66 l -729,-66 l -729,-199 l -995,-199 l -995,-66xe" onmouseover="UpdateTooltip(this,0,36)" onclick="OnShapeClick(0,36)" onfocus="UpdateTooltip(this,0,36);" onkeyup="OnShapeKey(0,36)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Miglia" origTitle="Miglia"  style="top:-1000;left:-1000;width:2300;height:2000;position:absolute" path=" m -995,99 l -729,99 l -729,-33 l -995,-33 l -995,99xe" onmouseover="UpdateTooltip(this,0,42)" onclick="OnShapeClick(0,42)" onfocus="UpdateTooltip(this,0,42);" onkeyup="OnShapeKey(0,42)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Vitioria" origTitle="Vitioria"  style="top:-1000;left:-1000;width:2300;height:2000;position:absolute" path=" m -995,265 l -729,265 l -729,133 l -995,133 l -995,265xe" onmouseover="UpdateTooltip(this,0,48)" onclick="OnShapeClick(0,48)" onfocus="UpdateTooltip(this,0,48);" onkeyup="OnShapeKey(0,48)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Benardo Cuteri" origTitle="Benardo Cuteri"  style="top:-1000;left:-1000;width:2300;height:2000;position:absolute" path=" m -995,431 l -729,431 l -729,298 l -995,298 l -995,431xe" onmouseover="UpdateTooltip(this,0,54)" onclick="OnShapeClick(0,54)" onfocus="UpdateTooltip(this,0,54);" onkeyup="OnShapeKey(0,54)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Ferdinando Cuteri" origTitle="Ferdinando Cuteri"  style="top:-1000;left:-1000;width:2300;height:2000;position:absolute" path=" m -530,-398 l -265,-398 l -265,-530 l -530,-530 l -530,-398xe" onmouseover="UpdateTooltip(this,0,60)" onclick="OnShapeClick(0,60)" onfocus="UpdateTooltip(this,0,60);" onkeyup="OnShapeKey(0,60)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Bruno Cuteri" origTitle="Bruno Cuteri"  style="top:-1000;left:-1000;width:2300;height:2000;position:absolute" path=" m -530,-232 l -265,-232 l -265,-365 l -530,-365 l -530,-232xe" onmouseover="UpdateTooltip(this,0,66)" onclick="OnShapeClick(0,66)" onfocus="UpdateTooltip(this,0,66);" onkeyup="OnShapeKey(0,66)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Nicola Cuteri" origTitle="Nicola Cuteri"  style="top:-1000;left:-1000;width:2300;height:2000;position:absolute" path=" m -530,-66 l -265,-66 l -265,-199 l -530,-199 l -530,-66xe" onmouseover="UpdateTooltip(this,0,120)" onclick="OnShapeClick(0,120)" onfocus="UpdateTooltip(this,0,120);" onkeyup="OnShapeKey(0,120)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Giuseppi Cuteri" origTitle="Giuseppi Cuteri"  style="top:-1000;left:-1000;width:2300;height:2000;position:absolute" path=" m -530,99 l -265,99 l -265,-33 l -530,-33 l -530,99xe" onmouseover="UpdateTooltip(this,0,126)" onclick="OnShapeClick(0,126)" onfocus="UpdateTooltip(this,0,126);" onkeyup="OnShapeKey(0,126)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Vittoria" origTitle="Vittoria"  style="top:-1000;left:-1000;width:2300;height:2000;position:absolute" path=" m -530,265 l -265,265 l -265,133 l -530,133 l -530,265xe" onmouseover="UpdateTooltip(this,0,132)" onclick="OnShapeClick(0,132)" onfocus="UpdateTooltip(this,0,132);" onkeyup="OnShapeKey(0,132)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Stella" origTitle="Stella"  style="top:-1000;left:-1000;width:2300;height:2000;position:absolute" path=" m -530,431 l -265,431 l -265,298 l -530,298 l -530,431xe" onmouseover="UpdateTooltip(this,0,138)" onclick="OnShapeClick(0,138)" onfocus="UpdateTooltip(this,0,138);" onkeyup="OnShapeKey(0,138)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Rosa" origTitle="Rosa"  style="top:-1000;left:-1000;width:2300;height:2000;position:absolute" path=" m -530,597 l -265,597 l -265,464 l -530,464 l -530,597xe" onmouseover="UpdateTooltip(this,0,144)" onclick="OnShapeClick(0,144)" onfocus="UpdateTooltip(this,0,144);" onkeyup="OnShapeKey(0,144)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Victoria Scarmazzi" origTitle="Victoria Scarmazzi"  style="top:-1000;left:-1000;width:2300;height:2000;position:absolute" path=" m 233,497 l 498,497 l 498,365 l 233,365 l 233,497xe" onmouseover="UpdateTooltip(this,0,150)" onclick="OnShapeClick(0,150)" onfocus="UpdateTooltip(this,0,150);" onkeyup="OnShapeKey(0,150)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Fred Cuteri" origTitle="Fred Cuteri"  style="top:-1000;left:-1000;width:2300;height:2000;position:absolute" path=" m 233,-232 l 498,-232 l 498,-365 l 233,-365 l 233,-232xe" onmouseover="UpdateTooltip(this,0,156)" onclick="OnShapeClick(0,156)" onfocus="UpdateTooltip(this,0,156);" onkeyup="OnShapeKey(0,156)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Mary Copeland" origTitle="Mary Copeland"  style="top:-1000;left:-1000;width:2300;height:2000;position:absolute" path=" m 233,-66 l 498,-66 l 498,-199 l 233,-199 l 233,-66xe" onmouseover="UpdateTooltip(this,0,162)" onclick="OnShapeClick(0,162)" onfocus="UpdateTooltip(this,0,162);" onkeyup="OnShapeKey(0,162)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Rose Pallotta" origTitle="Rose Pallotta"  style="top:-1000;left:-1000;width:2300;height:2000;position:absolute" path=" m 233,99 l 498,99 l 498,-33 l 233,-33 l 233,99xe" onmouseover="UpdateTooltip(this,0,168)" onclick="OnShapeClick(0,168)" onfocus="UpdateTooltip(this,0,168);" onkeyup="OnShapeKey(0,168)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Josephine Eercegovic  1929 Edward Ercegovic Jan 19,1929" origTitle="Josephine Eercegovic  1929 Edward Ercegovic Jan 19,1929"  style="top:-1000;left:-1000;width:2300;height:2000;position:absolute" path=" m 233,332 l 498,332 l 498,133 l 233,133 l 233,332xe" onmouseover="UpdateTooltip(this,0,174)" onclick="OnShapeClick(0,174)" onfocus="UpdateTooltip(this,0,174);" onkeyup="OnShapeKey(0,174)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Stephanie Ercegovic May 4, 1960 Brian Foster Nov, xx, 195x" origTitle="Stephanie Ercegovic May 4, 1960 Brian Foster Nov, xx, 195x"  style="top:-1000;left:-1000;width:2300;height:2000;position:absolute" path=" m 598,431 l 863,431 l 863,199 l 598,199 l 598,431xe" onmouseover="UpdateTooltip(this,0,155)" onclick="OnShapeClick(0,155)" onfocus="UpdateTooltip(this,0,155);" onkeyup="OnShapeKey(0,155)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Edward Ercegovic June 22,1964 Debra (Ruth) Ercegovic Jan, 6,..." origTitle="Edward Ercegovic June 22,1964 Debra (Ruth) Ercegovic Jan, 6,..."  style="top:-1000;left:-1000;width:2300;height:2000;position:absolute" path=" m 611,512 l 598,512 l 598,729 l 863,729 l 863,512 l 849,512 l 849,510 l 611,510 l 611,512xe" onmouseover="UpdateTooltip(this,0,185)" onclick="OnShapeClick(0,185)" onfocus="UpdateTooltip(this,0,185);" onkeyup="OnShapeKey(0,185)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Caroline Ercegovic April 25, 2007" origTitle="Caroline Ercegovic April 25, 2007"  style="top:-1000;left:-1000;width:2300;height:2000;position:absolute" path=" m 1029,805 l 1294,805 l 1294,672 l 1029,672 l 1029,805xe" onmouseover="UpdateTooltip(this,0,190)" onclick="OnShapeClick(0,190)" onfocus="UpdateTooltip(this,0,190);" onkeyup="OnShapeKey(0,190)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Edward Ercegovic June 23, 2008" origTitle="Edward Ercegovic June 23, 2008"  style="top:-1000;left:-1000;width:2300;height:2000;position:absolute" path=" m 1029,995 l 1294,995 l 1294,862 l 1029,862 l 1029,995xe" onmouseover="UpdateTooltip(this,0,198)" onclick="OnShapeClick(0,198)" onfocus="UpdateTooltip(this,0,198);" onkeyup="OnShapeKey(0,198)"/> 
+
+</v:group>
+
+
+
+</div>
+
+
+
+</body>
+</html>
+
